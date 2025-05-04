@@ -1,0 +1,102 @@
+@use 'variables';
+
+.formpee {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 2rem auto; // ← auto centre le formulaire
+  max-width: 700px;  // ← limite la largeur sur tous les écrans
+  font-family: variables.$font-stack;
+  background-color: variables.$background-color;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+  label {
+    font-weight: 600;
+    color: variables.$text-color;
+    font-size: 1rem;
+  }
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid darken(variables.$primary-color, 10%);
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: variables.$secondary-color;
+    color: variables.$text-color;
+    font-family: variables.$font-stack;
+
+    &:focus {
+      outline: none;
+      border-color: variables.$accent-color;
+      box-shadow: 0 0 0 3px rgba(variables.$accent-color, 0.3);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button[type="submit"],
+  .btn-contact {
+    background-color: rgb(74, 71, 116);
+    color: variables.$text-light;
+    font-weight: bold;
+    padding: 0.9rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken(variables.$primary-color, 10%);
+    }
+  }
+}
+
+@media (max-width: variables.$tablet) {
+  .formpee {
+    padding: 1.5rem;
+  }
+
+  .formpee label {
+    font-size: 0.95rem;
+  }
+
+  .formpee input,
+  .formpee textarea,
+  .formpee select {
+    font-size: 0.95rem;
+  }
+
+  .formpee button[type="submit"] {
+    font-size: 0.95rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: variables.$mobile) {
+  .formpee {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .formpee input,
+  .formpee textarea,
+  .formpee select {
+    padding: 0.65rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  .formpee button[type="submit"] {
+    font-size: 0.9rem;
+  }
+}
+

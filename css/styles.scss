@@ -1,0 +1,1007 @@
+@use 'variables';
+@use 'buttons';
+@use 'services';
+@use 'contact';
+@use 'offres';
+@use 'cgv';
+@use 'conseils-seo';
+@use 'sites-vente-abonnement';
+@use 'mentions-legales';
+@import './animations';
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+    font-family: variables.$font-stack;
+    margin: 0;
+    background-color: variables.$secondary-color;
+    color: variables.$text-color;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Menu de navigation 
+
+.nav-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 1200;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: variables.$secondary-color;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+
+  &:hover .dot:nth-child(1) {
+    transform: translateX(5px);
+  }
+  &:hover .dot:nth-child(2) {
+    transform: translateX(-5px);
+  }
+  &:hover .dot:nth-child(3) {
+    transform: translateX(5px);
+  }
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: variables.$primary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.4s ease;
+  z-index: 1100;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 1.5rem 0;
+
+      a {
+        color: variables.$secondary-color;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+
+        &:hover {
+          color: variables.$accent-color;
+        }
+      }
+    }
+  }
+
+  &.open {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  z-index: 1000;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+
+  &.show {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+// Hero section 
+.hero {
+  position: relative; // pour positionner le ::before
+  background-image: url('../images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: variables.$secondary-color;
+  padding: 6rem 1rem;
+  text-align: center;
+  overflow: hidden; // sécurité
+
+  // Filtre sombre
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5); // ← opacité réglable
+    z-index: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 1rem; // vraiment en haut
+    left: 1rem;
+    z-index: 1100;
+  
+    img {
+      max-height: 200px;
+      width: auto;
+      display: block;
+    }
+  }
+  
+
+  .container {
+    position: relative;
+    z-index: 1; // met le texte au-dessus du filtre
+  }
+
+  #animated-title span {
+    opacity: 0;
+    transform: translateY(10px);
+    display: inline-block;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: variables.$secondary-color;
+  }
+
+  #animated-title span.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+
+  .cta {
+    display: inline-block;
+    background-color: variables.$secondary-color;
+    color: variables.$primary-color;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: variables.$accent-color;
+    }
+  }
+}
+
+
+.container-text {
+  position: relative;
+  padding: 6rem 1rem;
+  background-color: #F9F6F2;
+  color: #2C3E50;
+  text-align: center;
+  overflow: hidden;
+
+  // Cercle 1
+  &::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, #d0d1d7, #707a93);
+    border-radius: 50%;
+    top: 20%;
+    left: 10%;
+    opacity: 0.25;
+    z-index: 0;
+    animation: float1 15s ease-in-out infinite;
+  }
+
+  // Cercle 2
+  &::after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, #C49A6C, #fffbe9);
+    border-radius: 50%;
+    bottom: 15%;
+    right: 15%;
+    opacity: 0.25;
+    z-index: 0;
+    animation: float2 17s ease-in-out infinite;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+}
+
+
+
+// Bloc par 4
+.steps {
+  background-color: variables.$secondary-color;
+  color: variables.$primary-color;
+  padding: 5rem 1rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    animation: fadeDown 1s ease forwards;
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+    .step {
+      padding: 2rem;
+      border-radius: 12px;
+      background-color: lighten(variables.$secondary-color, 5%);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+      transform: translateY(50px);
+      opacity: 0;
+      animation: fadeUp 1s ease forwards;
+      animation-delay: 0.5s;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+// Section Exemples 
+.examples {
+  padding: 5rem 1rem;
+  background-color: variables.$secondary-color;
+  color: variables.$primary-color;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .examples-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .example-card {
+    background-color: variables.$primary-color;
+    color: variables.$secondary-color;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    p {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+
+// Section Budget
+
+.budget {
+  padding: 5rem 1rem;
+  text-align: center;
+  background-color: variables.$secondary-color;
+  color: variables.$primary-color;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .budget-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .budget-box {
+    background-color: lighten(variables.$secondary-color, 5%);
+    color: variables.$primary-color;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Section contact
+
+.contact {
+  background-color: rgb(159, 159, 189);
+  color: variables.$secondary-color;
+  padding: 5rem 1rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+    .btn-contact {
+      background-color: variables.$secondary-color;
+      color: variables.$primary-color;
+      padding: 0.8rem 1.6rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        background-color: variables.$accent-color;
+        transform: translateY(-3px);
+      }
+    }
+  }
+}
+
+// Section bannière
+
+.banner {
+  background-image: url('../images/banner.jpg'); // remplace par ton image
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 6rem 2rem;
+  text-align: center;
+  position: relative;
+  color: variables.$secondary-color;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); // fonce un peu l’image
+    z-index: 1;
+  }
+
+  .banner-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+  }
+}
+
+
+// Section footer
+
+.site-footer {
+  background-color: darken(variables.$primary-color, 3%);
+  color: variables.$secondary-color;
+  padding: 3rem 1rem;
+  font-size: 0.95rem;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p, li {
+      margin: 0.3rem 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li a {
+        color: variables.$secondary-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+    text-align: center;
+  
+    .footer-links-bottom {
+      margin-top: 0.5rem;
+  
+      a {
+        color: variables.$secondary-color;
+        text-decoration: none;
+        margin: 0 0.5rem;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+  
+      .separator {
+        color: rgba(255, 255, 255, 0.5);
+        margin: 0 0.3rem;
+      }
+    }
+  }
+}
+
+.footer-contact {
+  h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin: 0.3rem 0;
+  }
+
+  a {
+    color: variables.$secondary-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .footer-logo {
+    margin-top: 2rem;
+
+    img {
+      max-height: 130px;
+      width: auto;
+      display: block;
+    }
+  }
+}
+
+
+.footer-socials {
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      a {
+        color: variables.$secondary-color;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        i {
+          font-size: 1.1rem;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Effet scrole fluide
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+// Reponsive
+@media (max-width: variables.$tablet) {
+  .container-text {
+    &::before {
+      width: 200px;
+      height: 200px;
+      top: 10%;
+      left: 5%;
+    }
+  
+    &::after {
+      width: 160px;
+      height: 160px;
+      bottom: 10%;
+      right: 5%;
+    }
+  }
+
+  .hero {
+    padding-top: 6rem; // pour que le logo ait la place de s'afficher
+  }
+
+  .logo {
+    top: 0; // bien tout en haut
+    left: 0.20rem;
+
+    img {
+      max-height: 20px;
+    }
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .container-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .container-text p {
+    font-size: 1rem;
+  }
+
+  .steps .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .examples {
+    padding: 4rem 1rem;
+  
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2.5rem;
+    }
+  
+    .examples-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  
+    .example-card {
+      video {
+        max-height: 280px; // un peu plus grand que mobile
+      }
+  
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+  
+
+  .budget .budget-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .budget .budget-box {
+    max-width: 90%;
+  }
+
+  .budget h2 {
+    font-size: 1.6rem;
+  }
+
+  .budget .intro {
+    font-size: 1.1rem;
+  }
+
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact .intro {
+    font-size: 1.1rem;
+  }
+
+  .site-footer .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-footer .footer-bottom {
+    text-align: center;
+  }
+
+  .site-footer .footer-links-bottom {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .footer-contact {
+    text-align: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+
+    img {
+      margin: 1rem auto 0;
+    }
+  }
+
+  .banner h2 {
+    font-size: 1.8rem;
+  }
+} // ✅ Fermeture correcte ici
+
+
+@media (max-width: variables.$mobile) {
+  .nav-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 1.5rem;
+    gap: 4px;
+  
+    .dot {
+      width: 4px;
+      height: 4px;
+    }
+  }
+  .container-text {
+    &::before {
+      width: 300px;
+      height: 300px;
+      top: 5%;
+      left: 2%;
+    }
+  
+    &::after {
+      width: 300px;
+      height: 300px;
+      bottom: 5%;
+      right: 2%;
+    }
+  }
+  
+  #animated-title {
+    font-size: 1.3rem;
+  }
+
+  .hero {
+    padding: 4rem 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+
+    h1 {
+      font-size: 1.2rem;
+      white-space: normal;
+      word-break: break-word;
+      max-width: 100%;
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+
+    .logo {
+      top: 1rem;
+      left: 0.80rem;
+  
+      img {
+        max-height: 50px;
+      }
+    }
+    
+    .cta {
+      font-size: 0.95rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+
+  .container-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .container-text p {
+    font-size: 0.95rem;
+  }
+
+  .steps .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps .step img {
+    width: 100%;
+    height: auto;
+  }
+
+  .steps h2 {
+    font-size: 1.6rem; // ou 1.2rem si tu veux vraiment petit
+    text-align: center; // optionnel mais souvent plus propre sur mobile
+    margin-bottom: 1.5rem;
+  }
+
+  .examples {
+    padding: 3rem 1rem;
+  
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+  
+    .examples-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    .example-card {
+      video {
+        max-height: 200px; // optionnel : limite la hauteur en mobile
+      }
+  
+      p {
+        font-size: 0.95rem;
+        padding: 0.8rem;
+      }
+    }
+  }
+  
+  .budget h2 {
+    font-size: 1.4rem;
+  }
+
+  .budget .intro {
+    font-size: 1rem;
+  }
+
+  .budget .budget-box h3 {
+    font-size: 1.2rem;
+  }
+
+  .budget .budget-box p {
+    font-size: 0.95rem;
+  }
+
+  .contact h2 {
+    font-size: 1.1rem;
+  }
+
+  .contact .intro,
+  .contact .contact-info p {
+    font-size: 1rem;
+  }
+
+  .contact .contact-buttons {
+    flex-direction: column;
+    align-items: center;
+
+    .btn-contact {
+      width: 100%;
+      max-width: 250px;
+      text-align: center;
+    }
+  }
+
+  .site-footer {
+    font-size: 0.9rem;
+    text-align: center;
+
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h3, h4 {
+      font-size: 1rem;
+    }
+
+    .footer-contact {
+      text-align: center;
+    }
+  
+    .footer-logo {
+      text-align: center;
+  
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 1rem;
+
+      .footer-links-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
+        margin-top: 0.5rem;
+
+        a {
+          margin: 0;
+        }
+      }
+    }
+
+      .footer-socials {
+        text-align: center;
+  
+        ul {
+          padding: 0;
+          list-style: none;
+  
+          li {
+            margin-bottom: 0.5rem;
+  
+            a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 0.5rem;
+              font-size: 0.95rem;
+              text-decoration: none;
+              color: variables.$secondary-color;
+            }
+          }
+        }
+      }
+    }
+      
+
+
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+

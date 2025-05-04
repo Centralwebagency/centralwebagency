@@ -1,0 +1,207 @@
+@use 'variables';
+
+main {
+  font-family: variables.$font-stack;
+  background-color: variables.$background-color;
+  color: variables.$text-color;
+}
+
+/* INTRODUCTION */
+.intro-section {
+  text-align: center;
+  padding: 5rem 1.5rem;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+}
+
+/* PRÉSENTATION TEXTE + IMAGE */
+.presentation-section {
+  padding: 5rem 1.5rem;
+  background: linear-gradient(135deg, #ecebed 0%, #9eb9e9 100%);
+  border-radius: 10px;
+
+  .container-presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+
+    .text-side {
+      flex: 1;
+
+      h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+    }
+
+    .image-side {
+      flex: 1;
+      text-align: center;
+
+      img {
+        max-width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+/* TABLEAU DES PRIX */
+.pricing-section {
+  padding: 5rem 1.5rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: variables.$primary-color;
+  }
+
+  .pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+    .pricing-card {
+      background: linear-gradient(135deg, #936abf 0%, #6294ea 100%);
+      color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+      }
+
+      h3 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      .price {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+/* DÉTAILS DE L'ABONNEMENT */
+.details-section {
+  padding: 5rem 1.5rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+
+  .detail-block {
+    margin-bottom: 3rem;
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  }
+}
+
+/* RESPONSIVE TABLETTE */
+@media (max-width: variables.$tablet) {
+  .presentation-section {
+    .container-presentation {
+      flex-direction: column;
+      gap: 2rem;
+
+      .text-side,
+      .image-side {
+        width: 100%;
+      }
+    }
+  }
+
+  .pricing-section {
+    .pricing-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .pricing-card {
+      width: 80%;
+      max-width: 400px;
+    }
+  }
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: variables.$mobile) {
+  .intro-section,
+  .presentation-section,
+  .pricing-section,
+  .details-section {
+    padding: 3rem 1rem;
+  }
+
+  .intro-section h2,
+  .pricing-section h2,
+  .details-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .presentation-section .text-side h3,
+  .pricing-section .pricing-card h3,
+  .details-section .detail-block h3 {
+    font-size: 1.5rem;
+  }
+
+  .presentation-section .text-side p,
+  .pricing-section .pricing-card p,
+  .details-section .detail-block p {
+    font-size: 1rem;
+  }
+
+  .pricing-section .pricing-card {
+    width: 100%;
+    padding: 1.5rem;
+  }
+}

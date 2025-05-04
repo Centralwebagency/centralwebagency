@@ -1,0 +1,129 @@
+@use 'variables';
+.services-cards {
+  background-color: variables.$secondary-color;
+  color: variables.$primary-color;
+  padding: 5rem 1rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .separator {
+      width: 60px;
+      height: 3px;
+      background-color: variables.$accent-color;
+      margin: 1rem auto 1.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 1.5rem 0;
+      text-align: left;
+    
+      li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    
+        &::before {
+          content: '•';
+          position: absolute;
+          left: 0;
+          top: 0;
+          color: variables.$accent-color; // tu peux aussi créer une variable $bullet-color si tu préfères
+          font-size: 1.3rem;
+          line-height: 1.1;
+        }
+      }
+    }
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: variables.$tablet) {
+  .services-cards {
+    padding: 4rem 1rem;
+
+    .card {
+      padding: 1.5rem;
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: variables.$mobile) {
+  .services-cards {
+    padding: 3rem 1rem;
+
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    .card {
+      padding: 1.2rem;
+      h3 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+
+      ul {
+        li {
+          font-size: 1rem;
+          margin-bottom: 0.8rem;
+    
+          &::before {
+            font-size: 1.1rem;
+          }
+         }
+        }
+       }  
+     }
+   }
+
+
+

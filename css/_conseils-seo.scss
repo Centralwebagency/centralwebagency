@@ -1,0 +1,135 @@
+@use 'variables';
+
+.advice-article {
+  padding: 5rem 2rem;
+  background-color: variables.$secondary-color;
+  font-family: variables.$font-stack;
+  color: variables.$text-color;
+
+  .advice-header {
+    max-width: 1000px;
+    margin: 0 auto 4rem auto;
+    text-align: center;
+
+    h1 {
+      font-size: 2.4rem;
+      color: variables.$primary-color;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+  }
+
+  .advice-image {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    img {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .advice-content {
+    max-width: 900px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 2rem;
+      color: variables.$primary-color;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 2.5rem;
+      text-align: justify;
+    }
+  }
+}
+
+.seo-quote {
+  font-style: italic;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 700px;
+  color: #777;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+  }
+  
+
+/* TABLETTE */
+@media (max-width: variables.$tablet) {
+    .advice-article {
+      padding: 4rem 1.5rem;
+  
+      .advice-header {
+        h1 {
+          font-size: 2rem;
+        }
+  
+        p {
+          font-size: 1.1rem;
+        }
+      }
+  
+      .advice-content {
+        h2 {
+          font-size: 1.6rem;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+  
+      .seo-quote {
+        font-size: 1rem;
+        max-width: 90%;
+      }
+    }
+  }
+  
+  /* MOBILE */
+  @media (max-width: variables.$mobile) {
+    .advice-article {
+      padding: 3rem 1rem;
+  
+      .advice-header {
+        h1 {
+          font-size: 1.8rem;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+  
+      .advice-content {
+        h2 {
+          font-size: 1.4rem;
+        }
+  
+        p {
+          font-size: 0.95rem;
+        }
+      }
+  
+      .seo-quote {
+        font-size: 0.95rem;
+        max-width: 100%;
+      }
+    }
+  }
+  
