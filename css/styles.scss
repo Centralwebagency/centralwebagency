@@ -15,16 +15,16 @@
 }
 
 body {
-    font-family: variables.$font-stack;
-    margin: 0;
-    background-color: variables.$secondary-color;
-    color: variables.$text-color;
-    overflow-x: hidden;
+  font-family: variables.$font-stack;
+  margin: 0;
+  background-color: variables.$secondary-color;
+  color: variables.$text-color;
+  overflow-x: hidden;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -33,15 +33,14 @@ a {
   padding: 0 1rem;
 }
 
-// Menu de navigation 
-
+// Menu burger
 .nav-toggle {
+  display: none;
   position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 1200;
   cursor: pointer;
-  display: flex;
   flex-direction: column;
   gap: 6px;
 
@@ -64,46 +63,39 @@ a {
   }
 }
 
+// Menu de navigation (affiché en haut à droite sur desktop)
 .mobile-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 100%;
-  background-color: variables.$primary-color;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background: transparent;
+  z-index: 1001;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  transform: translateX(100%);
-  opacity: 0;
-  transition: all 0.4s ease;
-  z-index: 1100;
+  flex-direction: row;
+  opacity: 1;
+  transform: none;
+  padding: 0;
+  pointer-events: auto;
 
   ul {
+    display: flex;
+    gap: 2rem;
     list-style: none;
+    margin: 0;
     padding: 0;
 
-    li {
-      margin: 1.5rem 0;
+    li a {
+      color: variables.$secondary-color;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
 
-      a {
-        color: variables.$secondary-color;
-        font-size: 1.5rem;
-        text-decoration: none;
-        font-weight: bold;
-        transition: color 0.3s;
-
-        &:hover {
-          color: variables.$accent-color;
-        }
+      &:hover {
+        color: variables.$accent-color;
       }
     }
-  }
-
-  &.open {
-    transform: translateX(0);
-    opacity: 1;
   }
 }
 
@@ -125,9 +117,9 @@ a {
   }
 }
 
-// Hero section 
+// Hero section
 .hero {
-  position: relative; // pour positionner le ::before
+  position: relative;
   background-image: url('../images/header-bg.webp');
   background-size: cover;
   background-position: center;
@@ -135,34 +127,32 @@ a {
   color: variables.$secondary-color;
   padding: 6rem 1rem;
   text-align: center;
-  overflow: hidden; // sécurité
+  overflow: hidden;
 
-  // Filtre sombre
   &::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.5); // ← opacité réglable
+    background: rgba(0, 0, 0, 0.5);
     z-index: 0;
   }
 
   .logo {
     position: absolute;
-    top: 1rem; // vraiment en haut
+    top: 1rem;
     left: 1rem;
     z-index: 1100;
-  
+
     img {
       max-height: 200px;
       width: auto;
       display: block;
     }
   }
-  
 
   .container {
     position: relative;
-    z-index: 1; // met le texte au-dessus du filtre
+    z-index: 1;
   }
 
   #animated-title span {
@@ -173,11 +163,11 @@ a {
     font-weight: 700;
     letter-spacing: 0.5px;
     color: variables.$secondary-color;
-  }
 
-  #animated-title span.visible {
-    opacity: 1;
-    transform: translateY(0);
+    &.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   h1 {
@@ -464,7 +454,7 @@ a {
 // Section bannière
 
 .banner {
-  background-image: url('../images/banner.webp'); // remplace par ton image
+  background-image: url('../images/banner.webp'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -478,7 +468,7 @@ a {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); // fonce un peu l’image
+    background-color: rgba(0, 0, 0, 0.4); 
     z-index: 1;
   }
 
@@ -778,17 +768,65 @@ a {
   }
 } 
 
-
 @media (max-width: variables.$mobile) {
-  .nav-toggle {
+.nav-toggle {
+    display: flex;
     position: fixed;
-    top: 2rem;
-    right: 1.5rem;
-    gap: 4px;
-  
+    top: 1.5rem;
+    right: 1rem; // Légèrement décollé du bord droit
+    z-index: 1200;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+
     .dot {
-      width: 4px;
-      height: 4px;
+      width: 6px; // Plus petit qu'avant
+      height: 6px;
+      background-color: variables.$secondary-color;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: variables.$primary-color;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.4s ease;
+    z-index: 1100;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      li a {
+        font-size: 1.5rem;
+        color: variables.$secondary-color;
+        font-weight: bold;
+
+        &:hover {
+          color: variables.$accent-color;
+        }
+      }
+    }
+
+    &.open {
+      transform: translateX(0);
+      opacity: 1;
+      display: flex;
     }
   }
 
