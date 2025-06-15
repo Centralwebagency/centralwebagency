@@ -128,7 +128,7 @@ a {
 // Hero section 
 .hero {
   position: relative; // pour positionner le ::before
-  background-image: url('../images/header-bg.jpg');
+  background-image: url('../images/header-bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -464,7 +464,7 @@ a {
 // Section bannière
 
 .banner {
-  background-image: url('../images/banner.jpg'); // remplace par ton image
+  background-image: url('../images/banner.webp'); // remplace par ton image
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -662,11 +662,11 @@ a {
   }
 
   .hero {
-    padding-top: 6rem; // pour que le logo ait la place de s'afficher
+    padding-top: 6rem; 
   }
 
   .logo {
-    top: 0; // bien tout en haut
+    top: 0; 
     left: 0.20rem;
 
     img {
@@ -709,7 +709,7 @@ a {
   
     .example-card {
       video {
-        max-height: 280px; // un peu plus grand que mobile
+        max-height: 280px; 
       }
   
       p {
@@ -776,7 +776,7 @@ a {
   .banner h2 {
     font-size: 1.8rem;
   }
-} // ✅ Fermeture correcte ici
+} 
 
 
 @media (max-width: variables.$mobile) {
@@ -864,8 +864,8 @@ a {
   }
 
   .steps h2 {
-    font-size: 1.6rem; // ou 1.2rem si tu veux vraiment petit
-    text-align: center; // optionnel mais souvent plus propre sur mobile
+    font-size: 1.6rem; 
+    text-align: center; 
     margin-bottom: 1.5rem;
   }
 
@@ -884,7 +884,7 @@ a {
   
     .example-card {
       video {
-        max-height: 200px; // optionnel : limite la hauteur en mobile
+        max-height: 200px; 
       }
   
       p {
@@ -996,8 +996,6 @@ a {
       }
     }
       
-
-
 
   .banner h2 {
     font-size: 1.5rem;
