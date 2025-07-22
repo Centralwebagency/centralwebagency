@@ -166,7 +166,7 @@
 .formpee select {
   width: 100%;
   padding: 0.75rem 1rem;
-  border: 1px solid #08080a;
+  border: 1px solid rgb(7.5, 7.75, 9.5);
   border-radius: 8px;
   font-size: 1rem;
   background-color: #F2F2F2;
@@ -198,7 +198,7 @@
 }
 .formpee button[type=submit]:hover,
 .formpee .btn-contact:hover {
-  background-color: #08080a;
+  background-color: rgb(7.5, 7.75, 9.5);
 }
 
 @media (max-width: 768px) {
@@ -241,7 +241,7 @@
   color: #1E1F26;
 }
 .offer-section.alt {
-  background-color: #eae7ee;
+  background-color: rgb(234.35, 231.1730769231, 237.5269230769);
 }
 .offer-section h2 {
   font-size: 2rem;
@@ -301,7 +301,7 @@
 .cgv-section .article h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #08080a;
+  color: rgb(7.5, 7.75, 9.5);
 }
 .cgv-section .article p {
   font-size: 1.05rem;
@@ -972,7 +972,7 @@ a {
 .steps .steps-grid .step {
   padding: 2rem;
   border-radius: 12px;
-  background-color: white;
+  background-color: rgb(254.75, 254.75, 254.75);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(50px);
   opacity: 0;
@@ -1060,7 +1060,7 @@ a {
   gap: 2rem;
 }
 .budget .budget-box {
-  background-color: white;
+  background-color: rgb(254.75, 254.75, 254.75);
   color: #1E1F26;
   border-radius: 12px;
   padding: 2rem;
@@ -1148,7 +1148,7 @@ a {
 }
 
 .site-footer {
-  background-color: #17181d;
+  background-color: rgb(23.25, 24.025, 29.45);
   color: #F2F2F2;
   padding: 3rem 1rem;
   font-size: 0.95rem;
