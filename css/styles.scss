@@ -276,7 +276,7 @@ a {
 
     .step {
       padding: 2rem;
-      border-radius: 12px;
+      border-radius: none;
       background-color: lighten(variables.$secondary-color, 5%);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
       transform: translateY(50px);
@@ -288,7 +288,7 @@ a {
         width: 100%;
         height: auto;
         margin-bottom: 1rem;
-        border-radius: 8px;
+        border-radius: none;
       }
 
       h3 {
@@ -331,7 +331,7 @@ a {
   .example-card {
     background-color: variables.$primary-color;
     color: variables.$secondary-color;
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
@@ -384,9 +384,9 @@ a {
   }
 
   .budget-box {
-    background-color: lighten(variables.$secondary-color, 5%);
+    background-color: lighten(#f9f9f9, 25%);
     color: variables.$primary-color;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 2rem;
     max-width: 320px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);

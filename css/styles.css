@@ -48,7 +48,7 @@
   background-color: #ffffff;
   border-left: 6px solid #1E1F26;
   padding: 2.5rem;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   font-family: "poppins", sans-serif;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -83,7 +83,7 @@
   background-color: white;
   padding: 2rem;
   margin-bottom: 2rem;
-  border-radius: 12px;
+  border-radius: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   max-width: 800px;
   margin-left: auto;
@@ -1021,7 +1021,7 @@ a {
 }
 .steps .steps-grid .step {
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: none;
   background-color: rgb(254.75, 254.75, 254.75);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(50px);
@@ -1033,7 +1033,7 @@ a {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: none;
 }
 .steps .steps-grid .step h3 {
   font-size: 1.4rem;
@@ -1067,7 +1067,7 @@ a {
 .examples .example-card {
   background-color: #1E1F26;
   color: #F2F2F2;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s;
@@ -1110,9 +1110,9 @@ a {
   gap: 2rem;
 }
 .budget .budget-box {
-  background-color: rgb(254.75, 254.75, 254.75);
+  background-color: white;
   color: #1E1F26;
-  border-radius: 12px;
+  border-radius: 6px;
   padding: 2rem;
   max-width: 320px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
