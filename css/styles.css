@@ -1166,25 +1166,6 @@ a {
   transform: translateY(-3px);
 }
 
-.reviews {
-  padding: 80px 20px;
-  background: #F2F2F2;
-  text-align: center;
-}
-.reviews h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #222;
-}
-.reviews .subtile {
-  color: #666;
-  margin-bottom: 40px;
-}
-.reviews .ti-widget {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 .banner {
   background-image: url("../images/banner.webp");
   background-size: cover;
