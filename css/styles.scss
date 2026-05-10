@@ -5,6 +5,8 @@
 
 @use 'variables';
 @use 'buttons';
+@use 'blog';
+@use 'articles';
 @use 'services';
 @use 'contact';
 @use 'offres';
@@ -13,6 +15,7 @@
 @use 'sites-vente-abonnement';
 @use 'mentions-legales';
 @import './animations';
+
 
 
 // ══════════════════════════════════════════════════════════════
