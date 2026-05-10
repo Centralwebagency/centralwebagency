@@ -1,56 +1,9 @@
+// ══════════════════════════════════════════════════════════════
+// _cgv.scss
+// Les styles de la page CGV sont définis dans _mentions-legales.scss
+// (classes .legal-section / .legal-block partagées entre les deux pages).
+// Ce fichier est conservé pour ne pas casser l'import dans styles.scss.
+// ══════════════════════════════════════════════════════════════
 @use 'variables';
 
-.cgv-section {
-    padding: 5rem 1rem;
-    background-color: variables.$secondary-color;
-    color: variables.$primary-color;
-
-    .container {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    .article {
-        margin-bottom: 3rem;
-
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: darken(variables.$primary-color, 10%);
-        }
-
-        p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            text-align: justify;
-        }
-    }
-}
-
-@media (max-width: variables.$tablet) {
-    .cgv-section {
-        padding: 4rem 1rem;
-
-        .article h2 {
-            font-size: 1.3rem;
-        }
-
-        .article p {
-            font-size: 1rem;
-        }
-    }
-}
-
-@media (max-width: variables.$mobile) {
-    .cgv-section {
-        padding: 3rem 1rem;
-
-        .article h2 {
-            font-size: 1.2rem;
-        }
-
-        .article p {
-            font-size: 0.95rem;
-        }
-    }
-}
+// Aucun style supplémentaire nécessaire — tout est dans _mentions-legales.scss

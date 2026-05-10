@@ -1,102 +1,232 @@
+// ══════════════════════════════════════════════════════════════
+// _contact.scss — Page "Contactez-nous"
+// ══════════════════════════════════════════════════════════════
 @use 'variables';
 
-.formpee {
+
+// ══════════════════════════════════════════════════════════════
+// SECTION CONTACT
+// ══════════════════════════════════════════════════════════════
+.contact-section {
+  padding: variables.$section-v 0;
+  background: variables.$bg;
+}
+
+// Grille 2 colonnes : infos | formulaire
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: clamp(3rem, 7vw, 8rem);
+  align-items: start;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// COLONNE INFOS
+// ══════════════════════════════════════════════════════════════
+.contact-infos {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  margin: 2rem auto; // ← auto centre le formulaire
-  max-width: 700px;  // ← limite la largeur sur tous les écrans
-  font-family: variables.$font-stack;
-  background-color: variables.$background-color;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  gap: 2rem;
+  position: sticky;
+  top: 7rem; // reste visible au scroll
+}
+
+// Liste des coordonnées
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid variables.$border;
+}
+
+.contact-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid variables.$border;
+  text-decoration: none;
+  transition: padding-left .3s ease;
+
+  &:hover {
+    padding-left: .4rem;
+
+    .contact-detail-value { color: variables.$gold; }
+  }
+}
+
+.contact-detail-icon {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: variables.$gold-dim;
+  border: 1px solid variables.$gold-border;
+  border-radius: 2px;
+  color: variables.$gold;
+  font-size: .8rem;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+
+.contact-detail-label {
+  display: block;
+  font-size: .68rem;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: variables.$text-muted;
+  margin-bottom: .2rem;
+}
+
+.contact-detail-value {
+  display: block;
+  font-size: .9rem;
+  color: variables.$text;
+  line-height: 1.5;
+  transition: color .3s ease;
+}
+
+// Engagements sous les coordonnées
+.contact-engagements {
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+
+.contact-engagement {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  font-size: .85rem;
+  color: variables.$text-muted;
+
+  i {
+    color: variables.$gold;
+    font-size: .7rem;
+    flex-shrink: 0;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// FORMULAIRE
+// ══════════════════════════════════════════════════════════════
+.contact-form-wrapper {
+  background: variables.$surface;
+  border: 1px solid variables.$border;
+  border-radius: 2px;
+  padding: clamp(2rem, 4vw, 3rem);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+// Ligne 2 champs côte à côte
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+// Groupe label + champ
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
 
   label {
-    font-weight: 600;
-    color: variables.$text-color;
-    font-size: 1rem;
+    font-size: .78rem;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: variables.$text-muted;
   }
 
-  input,
-  textarea,
-  select {
-    width: 100%;
-    padding: 0.75rem 1rem;
-    border: 1px solid darken(variables.$primary-color, 10%);
-    border-radius: 8px;
-    font-size: 1rem;
-    background-color: variables.$secondary-color;
-    color: variables.$text-color;
-    font-family: variables.$font-stack;
+  // Mention "facultatif"
+  .form-optional {
+    font-size: .7rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: variables.$text-muted;
+    opacity: .7;
+  }
+}
 
-    &:focus {
-      outline: none;
-      border-color: variables.$accent-color;
-      box-shadow: 0 0 0 3px rgba(variables.$accent-color, 0.3);
-    }
+// Champs de saisie
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: .85rem 1rem;
+  background: variables.$bg;
+  border: 1px solid variables.$border;
+  border-radius: 2px;
+  font-family: variables.$font-body;
+  font-size: .9rem;
+  color: variables.$text;
+  transition: border-color .3s ease, box-shadow .3s ease;
+  appearance: none;
+
+  // Placeholder
+  &::placeholder {
+    color: variables.$text-muted;
+    opacity: .5;
   }
 
-  textarea {
-    resize: vertical;
+  // Focus — bordure dorée + halo subtil
+  &:focus {
+    outline: none;
+    border-color: variables.$gold;
+    box-shadow: 0 0 0 3px variables.$gold-dim;
   }
+}
 
-  button[type="submit"],
-  .btn-contact {
-    background-color: rgb(74, 71, 116);
-    color: variables.$text-light;
-    font-weight: bold;
-    padding: 0.9rem 1.5rem;
-    border: none;
-    border-radius: 30px;
-    font-size: 1rem;
-    cursor: pointer;
-    align-self: center;
-    transition: background-color 0.3s ease;
+// Select — flèche personnalisée
+.contact-form select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23757E98' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+  cursor: pointer;
 
-    &:hover {
-      background-color: darken(variables.$primary-color, 10%);
-    }
+  option {
+    background: variables.$bg;
+    color: variables.$text;
   }
+}
+
+// Textarea non redimensionnable horizontalement
+.contact-form textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+// Bouton submit — reprend .btn-primary mais avec width auto
+.form-submit {
+  align-self: flex-start;
+  margin-top: .5rem;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// RESPONSIVE
+// ══════════════════════════════════════════════════════════════
+@media (max-width: variables.$desktop) {
+  .contact-grid   { grid-template-columns: 1fr; }
+  .contact-infos  { position: static; }
 }
 
 @media (max-width: variables.$tablet) {
-  .formpee {
-    padding: 1.5rem;
-  }
-
-  .formpee label {
-    font-size: 0.95rem;
-  }
-
-  .formpee input,
-  .formpee textarea,
-  .formpee select {
-    font-size: 0.95rem;
-  }
-
-  .formpee button[type="submit"] {
-    font-size: 0.95rem;
-    width: 100%;
-    text-align: center;
-  }
+  .form-row       { grid-template-columns: 1fr; }
+  .form-submit    { width: 100%; justify-content: center; }
 }
 
 @media (max-width: variables.$mobile) {
-  .formpee {
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .formpee input,
-  .formpee textarea,
-  .formpee select {
-    padding: 0.65rem 0.9rem;
-    font-size: 0.9rem;
-  }
-
-  .formpee button[type="submit"] {
-    font-size: 0.9rem;
-  }
+  .contact-form-wrapper { padding: 1.5rem; }
 }
-

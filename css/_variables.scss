@@ -1,10 +1,38 @@
-$primary-color: #1E1F26;
-$secondary-color: #F2F2F2;
-$background-color: #F9F6F2;
-$accent-color: #E8BDBD;
-$text-color: #333;
-$text-light: #ffffff;
-$font-stack: 'poppins', sans-serif;
+// ══════════════════════════════════════════════════════════════
+// _variables.scss
+// ══════════════════════════════════════════════════════════════
+
+
+// ── Variables existantes — NE PAS MODIFIER ───────────────────
+// Utilisées par les autres pages (_services, _offres, _cgv...)
+$primary-color:     #1E1F26;
+$secondary-color:   #F2F2F2;
+$background-color:  #F9F6F2;
+$accent-color:      #E8BDBD;
+$text-color:        #333;
+$text-light:        #ffffff;
+$font-stack:        'Poppins', sans-serif;
 
 $tablet: 768px;
 $mobile: 480px;
+
+
+// ── Nouveaux tokens — Design refactorisé (index.html) ────────
+// Utilisés uniquement dans _home.scss
+$bg:          #08090F;
+$surface:     #0D0E1A;
+$gold:        #C9A96E;
+$gold-light:  #E8C99A;
+$gold-dim:    rgba(201, 169, 110, 0.12);
+$gold-border: rgba(201, 169, 110, 0.22);
+$text:        #F0EBE1;
+$text-muted:  #757E98;
+$border:      rgba(255, 255, 255, 0.07);
+
+$font-display: 'Cormorant Garamond', Georgia, serif;
+$font-body:    'Outfit', system-ui, sans-serif;
+
+$desktop:   1024px;
+$container: 1200px;
+$section-v: clamp(5rem, 10vw, 9rem);
+$ease:      cubic-bezier(0.16, 1, 0.3, 1);

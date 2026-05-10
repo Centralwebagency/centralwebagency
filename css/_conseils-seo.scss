@@ -1,135 +1,272 @@
+// ══════════════════════════════════════════════════════════════
+// _conseils-seo.scss
+// Styles pour : conseils.html (hub) + pages conseils intérieures
+// ══════════════════════════════════════════════════════════════
 @use 'variables';
 
-.advice-article {
-  padding: 5rem 2rem;
-  background-color: variables.$secondary-color;
-  font-family: variables.$font-stack;
-  color: variables.$text-color;
 
-  .advice-header {
-    max-width: 1000px;
-    margin: 0 auto 4rem auto;
-    text-align: center;
+// ══════════════════════════════════════════════════════════════
+// HUB CONSEILS — Grille des 6 cartes
+// ══════════════════════════════════════════════════════════════
+.conseils-section {
+  padding: variables.$section-v 0;
+  background: variables.$bg;
+}
 
-    h1 {
-      font-size: 2.4rem;
-      color: variables.$primary-color;
-      margin-bottom: 1.5rem;
-    }
+// Grille 3 colonnes
+.conseils-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: variables.$border;
+}
 
-    p {
-      font-size: 1.2rem;
-      line-height: 1.8;
-    }
+// Carte conseil individuelle
+.conseil-card {
+  background: variables.$bg;
+  padding: clamp(2rem, 3vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: background .3s ease;
+
+  &:hover { background: variables.$surface; }
+}
+
+// En-tête de carte : numéro + icône
+.conseil-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
+
+.conseil-num {
+  font-family: variables.$font-display;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: rgba(201, 169, 110, .2);
+  line-height: 1;
+}
+
+.conseil-icon {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: variables.$gold-dim;
+  border: 1px solid variables.$gold-border;
+  border-radius: 2px;
+  color: variables.$gold;
+  font-size: .9rem;
+}
+
+.conseil-title {
+  font-family: variables.$font-display;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: variables.$text;
+  line-height: 1.2;
+}
+
+.conseil-body {
+  font-size: .88rem;
+  color: variables.$text-muted;
+  line-height: 1.8;
+  flex: 1;
+}
+
+// Lien "En savoir plus"
+.conseil-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: variables.$gold;
+  margin-top: .5rem;
+  transition: gap .3s ease, color .3s ease;
+
+  i {
+    font-size: .65rem;
+    transition: transform .3s ease;
   }
 
-  .advice-image {
-    text-align: center;
-    margin-bottom: 4rem;
+  &:hover {
+    color: variables.$gold-light;
 
-    img {
-      width: 100%;
-      max-width: 900px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    }
-  }
-
-  .advice-content {
-    max-width: 900px;
-    margin: 0 auto;
-
-    h2 {
-      font-size: 2rem;
-      color: variables.$primary-color;
-      margin-top: 3rem;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      margin-bottom: 2.5rem;
-      text-align: justify;
-    }
+    i { transform: translateX(4px); }
   }
 }
 
-.seo-quote {
-  font-style: italic;
-  text-align: center;
-  margin: 2rem auto;
-  max-width: 700px;
-  color: #777;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  padding: 0 1rem;
-  }
-  
 
-/* TABLETTE */
+// ══════════════════════════════════════════════════════════════
+// ENCART ÉDITORIAL
+// ══════════════════════════════════════════════════════════════
+.conseils-edito {
+  padding: variables.$section-v 0;
+  background: variables.$surface;
+}
+
+.conseils-edito-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(3rem, 7vw, 8rem);
+  align-items: start;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// PAGES CONSEILS INTÉRIEURES
+// Utilisé par : conseils-seo.html, conseils-google-business.html,
+// conseils-reseaux-sociaux.html, etc.
+// ══════════════════════════════════════════════════════════════
+.advice-article {
+  padding: variables.$section-v 0;
+  background: variables.$bg;
+}
+
+// En-tête de l'article
+.advice-header {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  text-align: center;
+
+  h1 {
+    font-family: variables.$font-display;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 300;
+    color: variables.$text;
+    margin-bottom: 1.25rem;
+    line-height: 1.1;
+
+    em {
+      font-style: italic;
+      color: variables.$gold;
+    }
+  }
+
+  p {
+    font-size: clamp(.95rem, 1.8vw, 1.1rem);
+    color: variables.$text-muted;
+    line-height: 1.85;
+  }
+}
+
+// Image illustrative
+.advice-image {
+  text-align: center;
+  margin-bottom: 4rem;
+
+  img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 2px;
+    filter: grayscale(15%) contrast(1.05);
+    border: 1px solid variables.$border;
+  }
+}
+
+// Corps de l'article
+.advice-content {
+  max-width: 760px;
+  margin: 0 auto;
+
+  h2 {
+    font-family: variables.$font-display;
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+    font-weight: 300;
+    color: variables.$text;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.15;
+
+    em {
+      font-style: italic;
+      color: variables.$gold;
+    }
+  }
+
+  p {
+    font-size: clamp(.9rem, 1.5vw, 1rem);
+    color: variables.$text-muted;
+    line-height: 1.9;
+    margin-bottom: 1.75rem;
+  }
+
+  ul, ol {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: .65rem;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: .75rem;
+      font-size: clamp(.88rem, 1.4vw, .98rem);
+      color: variables.$text-muted;
+      line-height: 1.7;
+
+      // Icône check auto sur les listes dans les articles
+      &::before {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: variables.$gold;
+        flex-shrink: 0;
+        margin-top: .55rem;
+      }
+    }
+  }
+
+  strong {
+    color: variables.$text;
+    font-weight: 500;
+  }
+}
+
+// Citation / encart éditorial
+.advice-quote {
+  font-family: variables.$font-display;
+  font-style: italic;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-weight: 300;
+  color: variables.$gold;
+  text-align: center;
+  max-width: 680px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-top: 1px solid variables.$gold-border;
+  border-bottom: 1px solid variables.$gold-border;
+  line-height: 1.6;
+}
+
+// Conserver l'ancienne classe pour compatibilité
+.seo-quote {
+  @extend .advice-quote;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// RESPONSIVE
+// ══════════════════════════════════════════════════════════════
+@media (max-width: variables.$desktop) {
+  .conseils-edito-grid { grid-template-columns: 1fr; }
+}
+
 @media (max-width: variables.$tablet) {
-    .advice-article {
-      padding: 4rem 1.5rem;
-  
-      .advice-header {
-        h1 {
-          font-size: 2rem;
-        }
-  
-        p {
-          font-size: 1.1rem;
-        }
-      }
-  
-      .advice-content {
-        h2 {
-          font-size: 1.6rem;
-        }
-  
-        p {
-          font-size: 1rem;
-        }
-      }
-  
-      .seo-quote {
-        font-size: 1rem;
-        max-width: 90%;
-      }
-    }
-  }
-  
-  /* MOBILE */
-  @media (max-width: variables.$mobile) {
-    .advice-article {
-      padding: 3rem 1rem;
-  
-      .advice-header {
-        h1 {
-          font-size: 1.8rem;
-        }
-  
-        p {
-          font-size: 1rem;
-        }
-      }
-  
-      .advice-content {
-        h2 {
-          font-size: 1.4rem;
-        }
-  
-        p {
-          font-size: 0.95rem;
-        }
-      }
-  
-      .seo-quote {
-        font-size: 0.95rem;
-        max-width: 100%;
-      }
-    }
-  }
-  
+  .conseils-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: variables.$mobile) {
+  .conseils-grid { grid-template-columns: 1fr; }
+}

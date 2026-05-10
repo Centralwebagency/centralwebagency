@@ -1,192 +1,135 @@
+// ══════════════════════════════════════════════════════════════
+// _services.scss — Page "Nos services"
+// ══════════════════════════════════════════════════════════════
 @use 'variables';
 
-.bio {
-  background-color: variables.$background-color;
-  color: variables.$text-color;
-  padding: 4rem 1rem;
 
-  .container-bio {
-    max-width: 1100px;
-    margin: 0 auto;
-    background-color: variables.$text-light;
-    border-left: 6px solid variables.$primary-color;
-    padding: 2.5rem;
-    border-radius: 8px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    font-family: variables.$font-stack;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+// ══════════════════════════════════════════════════════════════
+// INTRO — Grille 2 colonnes texte
+// ══════════════════════════════════════════════════════════════
+.svc-intro {
+  padding: variables.$section-v 0;
+  background: variables.$bg;
+}
 
-    &:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  }
+.svc-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(3rem, 7vw, 8rem);
+  align-items: start;
+}
 
-  }
 
-  h2 {
-    color: variables.$primary-color;
-    font-size: clamp(1.6rem, 4vw, 2.4rem);
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-  }
+// ══════════════════════════════════════════════════════════════
+// SECTION CARTES SERVICES
+// ══════════════════════════════════════════════════════════════
+.svc-section {
+  padding: variables.$section-v 0;
+  background: variables.$surface;
+}
 
-  p {
-    line-height: 1.7;
-    margin-bottom: 1.25rem;
-    font-size: 1.05rem;
+// Grille 3 colonnes — séparateur 2px couleur $border
+.svc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: variables.$border;
+}
+
+// Carte service individuelle
+.svc-card {
+  background: variables.$surface;
+  padding: clamp(2rem, 3vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  transition: background .3s ease;
+
+  &:hover { background: variables.$bg; }
+
+  // Variante mise en avant
+  &.svc-card--highlight {
+    background: variables.$bg;
+    position: relative;
+
+    // Ligne dorée supérieure
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(to right, transparent, variables.$gold, transparent);
+    }
+
+    &:hover { background: variables.$surface; }
   }
 }
 
-.services-cards {
-  background-color: variables.$secondary-color;
-  color: variables.$primary-color;
-  padding: 5rem 1rem;
-  text-align: center;
+// Icône de la carte
+.svc-card-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: variables.$gold-dim;
+  border: 1px solid variables.$gold-border;
+  border-radius: 2px;
+  color: variables.$gold;
+  font-size: .9rem;
+  flex-shrink: 0;
+}
 
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-  }
+// Titre de la carte
+.svc-card-title {
+  font-family: variables.$font-display;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: variables.$text;
+  line-height: 1.2;
+}
 
-  .card {
-    background-color: white;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: none;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+// Corps de la carte
+.svc-card-body {
+  font-size: .88rem;
+  color: variables.$text-muted;
+  line-height: 1.8;
+}
 
-    h3 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-    }
+// Liste à puces dans les cartes
+.svc-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
 
-    .separator {
-      width: 60px;
-      height: 3px;
-      background-color: variables.$accent-color;
-      margin: 1rem auto 1.5rem;
-    }
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: .65rem;
+    font-size: .88rem;
+    color: variables.$text-muted;
+    line-height: 1.5;
 
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 1.5rem 0;
-      text-align: left;
-    
-      li {
-        position: relative;
-        padding-left: 1.5rem;
-        margin-bottom: 1rem;
-        font-size: 1.1rem;
-        line-height: 1.6;
-    
-        &::before {
-          content: '•';
-          position: absolute;
-          left: 0;
-          top: 0;
-          color: variables.$accent-color; // tu peux aussi créer une variable $bullet-color si tu préfères
-          font-size: 1.3rem;
-          line-height: 1.1;
-        }
-      }
+    i {
+      color: variables.$gold;
+      font-size: .7rem;
+      flex-shrink: 0;
+      margin-top: .25rem;
     }
   }
 }
 
-.reveal {
-  opacity: 0;
-  transform: translateY(60px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
 
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
+// ══════════════════════════════════════════════════════════════
+// RESPONSIVE
+// ══════════════════════════════════════════════════════════════
+@media (max-width: variables.$desktop) {
+  .svc-intro-grid { grid-template-columns: 1fr; }
+  .svc-grid       { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: variables.$tablet) {
-  .services-cards {
-    padding: 4rem 1rem;
-
-    .card {
-      padding: 1.5rem;
-      h3 {
-        font-size: 1.3rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
-
-    .container-bio {
-      padding: 2rem;
-    }
-
-    h2 {
-      font-size: clamp(1.4rem, 5vw, 2.1rem);
-    }
-
-    p {
-      font-size: 1rem;
-    }
-  }
+  .svc-grid { grid-template-columns: 1fr; }
 }
-
-@media (max-width: variables.$mobile) {
-  .services-cards {
-    padding: 3rem 1rem;
-
-    h2 {
-      font-size: 1.6rem;
-    }
-
-    .container-bio {
-      padding: 1.5rem;
-    }
-
-    h2 {
-      font-size: 1.6rem;
-    }
-
-    p {
-      font-size: 0.95rem;
-    }
-  
-
-    .card {
-      padding: 1.2rem;
-      h3 {
-        font-size: 1.2rem;
-      }
-
-      p {
-        font-size: 0.95rem;
-      }
-
-      ul {
-        li {
-          font-size: 1rem;
-          margin-bottom: 0.8rem;
-    
-          &::before {
-            font-size: 1.1rem;
-          }
-         }
-        }
-       }  
-     }
-   }
-
-
 

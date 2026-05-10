@@ -1,45 +1,82 @@
+// ══════════════════════════════════════════════════════════════
+// _buttons.scss
+// Composants boutons partagés sur toutes les pages
+// ══════════════════════════════════════════════════════════════
 @use 'variables';
-// Bouton central
 
+
+// ── Centrage d'un bouton ────────────────────────────────────
+// Classe utilitaire conservée pour compatibilité avec
+// les anciennes pages qui utilisent encore .center-button
 .center-button {
   text-align: center;
   margin: 3rem 0;
 }
 
+
+// ── Bouton simple (ancien design) ──────────────────────────
+// Conservé pour les pages non encore migrées
+// Les nouvelles pages utilisent .btn-primary et .btn-ghost
+// définis dans styles.scss
 .btn-simple {
-  background-color: rgb(74, 71, 116);
-  color: variables.$secondary-color;
-  padding: 0.8rem 1.6rem;
-  border-radius: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: variables.$bg;
+  background: variables.$gold;
+  padding: .85rem 1.7rem;
+  border-radius: 2px;
+  transition: background .3s ease, transform .2s ease, box-shadow .3s ease;
 
   &:hover {
-    background-color: variables.$accent-color;
-    transform: translateY(-3px);
+    background: variables.$gold-light;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(201, 169, 110, .25);
   }
 }
 
-@media (max-width: variables.$tablet) {
-  .center-button {
-    margin: 2.5rem 0;
 
-    .btn-simple {
-      font-size: 1rem;
-      padding: 0.75rem 1.4rem;
-    }
+// ── Bouton contact (ancien formulaire) ─────────────────────
+// Conservé pour compatibilité
+.btn-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: variables.$bg;
+  background: variables.$gold;
+  padding: .95rem 1.9rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s ease, transform .2s ease;
+
+  &:hover {
+    background: variables.$gold-light;
+    transform: translateY(-2px);
   }
+}
+
+
+// ── Responsive ──────────────────────────────────────────────
+@media (max-width: variables.$tablet) {
+  .center-button { margin: 2.5rem 0; }
 }
 
 @media (max-width: variables.$mobile) {
-  .center-button {
-    margin: 2rem 1rem;
+  .center-button { margin: 2rem 1rem; }
 
-    .btn-simple {
-      font-size: 0.95rem;
-      padding: 0.7rem 1.2rem;
-    }
+  .btn-simple,
+  .btn-contact {
+    width: 100%;
+    justify-content: center;
   }
 }
