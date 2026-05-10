@@ -22,7 +22,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  max-width: 100%;
 }
 
 :root {
@@ -47,6 +46,8 @@ html {
 body {
   font-family: variables.$font-stack;
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
   background-color: variables.$background-color;
   color: variables.$text-color;
   overflow-x: hidden;
@@ -83,6 +84,7 @@ img {
   z-index: 9999;
   transform: translate(-50%, -50%);
   will-change: transform;
+
 }
 
 .cursor-dot {
@@ -114,7 +116,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
   z-index: 1100; // Au-dessus de .mobile-overlay (1050) — le burger reste toujours accessible
   padding: 1.5rem clamp(1rem, 4vw, 3rem);
   display: flex;
@@ -142,6 +144,8 @@ img {
   align-items: center;
   gap: 2.5rem;
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 
   a {
     font-size: .8rem;
@@ -361,7 +365,8 @@ img {
   justify-content: center;
   text-align: center;
   padding: 8rem clamp(1rem, 4vw, 3rem) 6rem;
-  overflow: hidden;
+  overflow-x: hidden;
+  width: 100%;
 
   // Image en fond réel — le navigateur l'affiche correctement
   background-image: url('../images/header-bg.webp');
@@ -404,7 +409,7 @@ img {
     height: clamp(250px, 40vw, 450px);
     background: radial-gradient(circle, rgba(201, 169, 110, .1), transparent 70%);
     top: -5%;
-    right: -5%;
+    right: 0;
     animation: orbFloat 22s ease-in-out infinite;
   }
 
@@ -413,7 +418,7 @@ img {
     height: clamp(200px, 30vw, 350px);
     background: radial-gradient(circle, rgba(90, 110, 210, .07), transparent 70%);
     bottom: 10%;
-    left: -5%;
+    left: 0;
     animation: orbFloat 28s ease-in-out infinite reverse;
   }
 }
@@ -492,6 +497,7 @@ img {
   left: 50%;
   // translateX(-50%) centre l'élément — on ne touche jamais à ce transform
   // L'animation ne joue que sur opacity pour ne pas l'écraser
+  width: max-content;
   transform: translateX(-50%);
   z-index: 2;
   display: flex;
@@ -574,6 +580,8 @@ img {
   grid-template-columns: 1fr 1fr;
   gap: clamp(3rem, 7vw, 9rem);
   align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .about-visual {
@@ -592,7 +600,7 @@ img {
 .about-accent {
   position: absolute;
   bottom: -1.5rem;
-  right: -1.5rem;
+  right: 0;
   width: 60%;
   height: 60%;
   border: 1px solid variables.$gold-border;
@@ -603,7 +611,7 @@ img {
 .about-badge {
   position: absolute;
   top: 1.5rem;
-  left: -2rem;
+  left: 0;
   background: variables.$gold;
   color: variables.$bg;
   padding: 1.2rem 1.4rem;
@@ -1648,3 +1656,4 @@ img {
 @media (max-width: variables.$mobile) {
   .page-banner-title { font-size: clamp(2.5rem, 10vw, 4rem); }
 }
+

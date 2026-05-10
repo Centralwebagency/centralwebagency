@@ -1237,7 +1237,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  max-width: 100%;
 }
 
 :root {
@@ -1262,6 +1261,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  width: 100%;
+  overflow-x: hidden;
   background-color: #F9F6F2;
   color: #333;
   overflow-x: hidden;
@@ -1320,7 +1321,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
   z-index: 1100;
   padding: 1.5rem clamp(1rem, 4vw, 3rem);
   display: flex;
@@ -1346,6 +1347,8 @@ img {
   align-items: center;
   gap: 2.5rem;
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 .nav-links a {
   font-size: 0.8rem;
@@ -1546,7 +1549,8 @@ img {
   justify-content: center;
   text-align: center;
   padding: 8rem clamp(1rem, 4vw, 3rem) 6rem;
-  overflow: hidden;
+  overflow-x: hidden;
+  width: 100%;
   background-image: url("../images/header-bg.webp");
   background-size: cover;
   background-position: center;
@@ -1579,7 +1583,7 @@ img {
   height: clamp(250px, 40vw, 450px);
   background: radial-gradient(circle, rgba(201, 169, 110, 0.1), transparent 70%);
   top: -5%;
-  right: -5%;
+  right: 0;
   animation: orbFloat 22s ease-in-out infinite;
 }
 .hero-orb.hero-orb-2 {
@@ -1587,7 +1591,7 @@ img {
   height: clamp(200px, 30vw, 350px);
   background: radial-gradient(circle, rgba(90, 110, 210, 0.07), transparent 70%);
   bottom: 10%;
-  left: -5%;
+  left: 0;
   animation: orbFloat 28s ease-in-out infinite reverse;
 }
 
@@ -1660,6 +1664,7 @@ img {
   position: absolute;
   bottom: 2rem;
   left: 50%;
+  width: max-content;
   transform: translateX(-50%);
   z-index: 2;
   display: flex;
@@ -1737,6 +1742,8 @@ img {
   grid-template-columns: 1fr 1fr;
   gap: clamp(3rem, 7vw, 9rem);
   align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .about-visual {
@@ -1754,7 +1761,7 @@ img {
 .about-accent {
   position: absolute;
   bottom: -1.5rem;
-  right: -1.5rem;
+  right: 0;
   width: 60%;
   height: 60%;
   border: 1px solid rgba(201, 169, 110, 0.22);
@@ -1765,7 +1772,7 @@ img {
 .about-badge {
   position: absolute;
   top: 1.5rem;
-  left: -2rem;
+  left: 0;
   background: #C9A96E;
   color: #08090F;
   padding: 1.2rem 1.4rem;
