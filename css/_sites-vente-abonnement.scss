@@ -87,6 +87,12 @@
     font-size: 1rem;
     color: variables.$text-muted;
   }
+
+  // Variante taille réduite pour les prix "À partir de XXX€"
+  // avec texte introductif sur la première ligne
+  &.plan-price--sm {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+  }
 }
 
 .plan-desc {
@@ -229,18 +235,18 @@
 // RESPONSIVE
 // ══════════════════════════════════════════════════════════════
 @media (max-width: variables.$desktop) {
-  .plans-grid         { grid-template-columns: repeat(2, 1fr); }
-  .plans-grid--4      { grid-template-columns: repeat(2, 1fr); }
-  .details-grid       { grid-template-columns: repeat(2, 1fr); }
-  .extras-grid        { grid-template-columns: 1fr; }
+  .plans-grid    { grid-template-columns: repeat(2, 1fr); }
+  .plans-grid--4 { grid-template-columns: repeat(2, 1fr); }
+  .details-grid  { grid-template-columns: repeat(2, 1fr); }
+  .extras-grid   { grid-template-columns: 1fr; }
 }
 
 @media (max-width: variables.$tablet) {
-  .plans-grid         { grid-template-columns: 1fr; }
-  .plans-grid--4      { grid-template-columns: 1fr; }
-  .details-grid       { grid-template-columns: repeat(2, 1fr); }
+  .plans-grid    { grid-template-columns: 1fr; }
+  .plans-grid--4 { grid-template-columns: 1fr; }
+  .details-grid  { grid-template-columns: 1fr; }
 }
 
 @media (max-width: variables.$mobile) {
-  .details-grid       { grid-template-columns: 1fr; }
+  .details-grid  { grid-template-columns: 1fr; }
 }

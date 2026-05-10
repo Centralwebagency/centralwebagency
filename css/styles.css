@@ -929,6 +929,9 @@
   font-size: 1rem;
   color: #757E98;
 }
+.plan-price.plan-price--sm {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
 
 .plan-desc {
   font-size: 0.82rem;
@@ -1076,7 +1079,7 @@
     grid-template-columns: 1fr;
   }
   .details-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 480px) {
@@ -1237,6 +1240,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 :root {
@@ -1256,13 +1260,12 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  width: 100%;
-  overflow-x: hidden;
   background-color: #F9F6F2;
   color: #333;
   overflow-x: hidden;
@@ -1321,7 +1324,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   z-index: 1100;
   padding: 1.5rem clamp(1rem, 4vw, 3rem);
   display: flex;
@@ -1347,8 +1350,6 @@ img {
   align-items: center;
   gap: 2.5rem;
   list-style: none;
-  margin: 0;
-  padding-left: 0;
 }
 .nav-links a {
   font-size: 0.8rem;
@@ -1457,6 +1458,42 @@ img {
   color: #C9A96E;
 }
 
+.mobile-overlay-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+.mobile-overlay-close span {
+  position: absolute;
+  width: 20px;
+  height: 1.5px;
+  background: #F0EBE1;
+  border-radius: 1px;
+}
+.mobile-overlay-close span:first-child {
+  transform: rotate(45deg);
+}
+.mobile-overlay-close span:last-child {
+  transform: rotate(-45deg);
+}
+.mobile-overlay-close:hover {
+  border-color: #C9A96E;
+}
+.mobile-overlay-close:hover span {
+  background: #C9A96E;
+}
+
 .btn-primary {
   display: inline-flex;
   align-items: center;
@@ -1549,8 +1586,7 @@ img {
   justify-content: center;
   text-align: center;
   padding: 8rem clamp(1rem, 4vw, 3rem) 6rem;
-  overflow-x: hidden;
-  width: 100%;
+  overflow: hidden;
   background-image: url("../images/header-bg.webp");
   background-size: cover;
   background-position: center;
@@ -1583,7 +1619,7 @@ img {
   height: clamp(250px, 40vw, 450px);
   background: radial-gradient(circle, rgba(201, 169, 110, 0.1), transparent 70%);
   top: -5%;
-  right: 0;
+  right: -5%;
   animation: orbFloat 22s ease-in-out infinite;
 }
 .hero-orb.hero-orb-2 {
@@ -1591,7 +1627,7 @@ img {
   height: clamp(200px, 30vw, 350px);
   background: radial-gradient(circle, rgba(90, 110, 210, 0.07), transparent 70%);
   bottom: 10%;
-  left: 0;
+  left: -5%;
   animation: orbFloat 28s ease-in-out infinite reverse;
 }
 
@@ -1664,7 +1700,6 @@ img {
   position: absolute;
   bottom: 2rem;
   left: 50%;
-  width: max-content;
   transform: translateX(-50%);
   z-index: 2;
   display: flex;
@@ -1742,8 +1777,6 @@ img {
   grid-template-columns: 1fr 1fr;
   gap: clamp(3rem, 7vw, 9rem);
   align-items: center;
-  width: 100%;
-  overflow: hidden;
 }
 
 .about-visual {
@@ -1761,7 +1794,7 @@ img {
 .about-accent {
   position: absolute;
   bottom: -1.5rem;
-  right: 0;
+  right: -1.5rem;
   width: 60%;
   height: 60%;
   border: 1px solid rgba(201, 169, 110, 0.22);
@@ -1772,7 +1805,7 @@ img {
 .about-badge {
   position: absolute;
   top: 1.5rem;
-  left: 0;
+  left: -2rem;
   background: #C9A96E;
   color: #08090F;
   padding: 1.2rem 1.4rem;
@@ -2657,6 +2690,13 @@ img {
   .cta-actions {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .plans-grid,
+  .plans-grid--4 {
+    grid-template-columns: 1fr !important;
+    background: transparent;
   }
 }
 @media (prefers-reduced-motion: reduce) {
