@@ -1409,13 +1409,17 @@ img {
 }
 
 .stagger.visible {
-  > *:nth-child(1) { opacity: 1; transform: none; transition-delay: .0s; }
-  > *:nth-child(2) { opacity: 1; transform: none; transition-delay: .1s; }
-  > *:nth-child(3) { opacity: 1; transform: none; transition-delay: .2s; }
-  > *:nth-child(4) { opacity: 1; transform: none; transition-delay: .3s; }
+  > *:nth-child(1)  { opacity: 1; transform: none; transition-delay: .0s; }
+  > *:nth-child(2)  { opacity: 1; transform: none; transition-delay: .1s; }
+  > *:nth-child(3)  { opacity: 1; transform: none; transition-delay: .2s; }
+  > *:nth-child(4)  { opacity: 1; transform: none; transition-delay: .3s; }
+  > *:nth-child(5)  { opacity: 1; transform: none; transition-delay: .4s; }
+  > *:nth-child(6)  { opacity: 1; transform: none; transition-delay: .5s; }
+  > *:nth-child(7)  { opacity: 1; transform: none; transition-delay: .6s; }
+  > *:nth-child(8)  { opacity: 1; transform: none; transition-delay: .7s; }
+  > *:nth-child(9)  { opacity: 1; transform: none; transition-delay: .8s; }
+  > *:nth-child(10) { opacity: 1; transform: none; transition-delay: .9s; }
 }
-
-
 // ══════════════════════════════════════════════════════════════
 // KEYFRAMES
 // ══════════════════════════════════════════════════════════════

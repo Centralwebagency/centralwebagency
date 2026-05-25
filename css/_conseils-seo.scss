@@ -6,14 +6,13 @@
 
 
 // ══════════════════════════════════════════════════════════════
-// HUB CONSEILS — Grille des 6 cartes
+// HUB CONSEILS — Grille des cartes
 // ══════════════════════════════════════════════════════════════
 .conseils-section {
   padding: variables.$section-v 0;
   background: variables.$bg;
 }
 
-// Grille 3 colonnes
 .conseils-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -21,7 +20,6 @@
   background: variables.$border;
 }
 
-// Carte conseil individuelle
 .conseil-card {
   background: variables.$bg;
   padding: clamp(2rem, 3vw, 2.5rem);
@@ -33,7 +31,6 @@
   &:hover { background: variables.$surface; }
 }
 
-// En-tête de carte : numéro + icône
 .conseil-card-top {
   display: flex;
   align-items: center;
@@ -60,6 +57,7 @@
   border-radius: 2px;
   color: variables.$gold;
   font-size: .9rem;
+  flex-shrink: 0;
 }
 
 .conseil-title {
@@ -77,7 +75,6 @@
   flex: 1;
 }
 
-// Lien "En savoir plus"
 .conseil-link {
   display: inline-flex;
   align-items: center;
@@ -121,27 +118,24 @@
 
 // ══════════════════════════════════════════════════════════════
 // PAGES CONSEILS INTÉRIEURES
-// Utilisé par : conseils-seo.html, conseils-google-business.html,
-// conseils-reseaux-sociaux.html, etc.
 // ══════════════════════════════════════════════════════════════
 .advice-article {
   padding: variables.$section-v 0;
   background: variables.$bg;
 }
 
-// En-tête de l'article
 .advice-header {
   max-width: 800px;
   margin: 0 auto 4rem;
   text-align: center;
 
-  h1 {
+  h2 {
     font-family: variables.$font-display;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(1.8rem, 4vw, 3rem);
     font-weight: 300;
     color: variables.$text;
     margin-bottom: 1.25rem;
-    line-height: 1.1;
+    line-height: 1.15;
 
     em {
       font-style: italic;
@@ -150,35 +144,43 @@
   }
 
   p {
-    font-size: clamp(.95rem, 1.8vw, 1.1rem);
+    font-size: clamp(.9rem, 1.8vw, 1.05rem);
     color: variables.$text-muted;
     line-height: 1.85;
   }
 }
 
-// Image illustrative
 .advice-image {
-  text-align: center;
-  margin-bottom: 4rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid variables.$border;
+  aspect-ratio: 16 / 7;
 
   img {
     width: 100%;
-    max-width: 900px;
-    height: auto;
-    border-radius: 2px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
     filter: grayscale(15%) contrast(1.05);
-    border: 1px solid variables.$border;
+    transition: transform .6s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.02);
   }
 }
 
-// Corps de l'article
 .advice-content {
   max-width: 760px;
   margin: 0 auto;
 
   h2 {
     font-family: variables.$font-display;
-    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+    font-size: clamp(1.4rem, 3.5vw, 2rem);
     font-weight: 300;
     color: variables.$text;
     margin-top: 3rem;
@@ -192,7 +194,7 @@
   }
 
   p {
-    font-size: clamp(.9rem, 1.5vw, 1rem);
+    font-size: clamp(.88rem, 1.5vw, 1rem);
     color: variables.$text-muted;
     line-height: 1.9;
     margin-bottom: 1.75rem;
@@ -204,26 +206,24 @@
     margin-bottom: 1.75rem;
     display: flex;
     flex-direction: column;
-    gap: .65rem;
+    gap: .75rem;
 
     li {
-      display: flex;
-      align-items: flex-start;
-      gap: .75rem;
+      position: relative;
+      padding-left: 1.25rem;
       font-size: clamp(.88rem, 1.4vw, .98rem);
       color: variables.$text-muted;
       line-height: 1.7;
 
-      // Icône check auto sur les listes dans les articles
       &::before {
         content: '';
-        display: block;
+        position: absolute;
+        left: 0;
+        top: .6rem;
         width: 6px;
         height: 6px;
         border-radius: 50%;
         background: variables.$gold;
-        flex-shrink: 0;
-        margin-top: .55rem;
       }
     }
   }
@@ -234,7 +234,16 @@
   }
 }
 
-// Citation / encart éditorial
+.advice-back {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid variables.$border;
+  flex-wrap: wrap;
+}
+
 .advice-quote {
   font-family: variables.$font-display;
   font-style: italic;
@@ -250,7 +259,6 @@
   line-height: 1.6;
 }
 
-// Conserver l'ancienne classe pour compatibilité
 .seo-quote {
   @extend .advice-quote;
 }
@@ -264,9 +272,13 @@
 }
 
 @media (max-width: variables.$tablet) {
-  .conseils-grid { grid-template-columns: repeat(2, 1fr); }
+  .conseils-grid   { grid-template-columns: repeat(2, 1fr); }
+  .advice-image    { aspect-ratio: 16 / 9; }
+  .advice-back     { flex-direction: column; align-items: flex-start; }
 }
 
 @media (max-width: variables.$mobile) {
-  .conseils-grid { grid-template-columns: 1fr; }
+  .conseils-grid   { grid-template-columns: 1fr; }
+  .advice-image    { aspect-ratio: 4 / 3; }
+  .advice-header   { text-align: left; }
 }

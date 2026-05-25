@@ -23,20 +23,22 @@
   background: variables.$surface;
 }
 
-// Grille 3 colonnes (abonnement) / 4 colonnes (clé en main)
+// Grille 3 colonnes (abonnement) / 4 colonnes (clé en main) / 3 colonnes 2 lignes (clé en main étendue)
 .plans-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
   background: variables.$border;
 
-  // Variante 4 colonnes pour la page clé en main
   &.plans-grid--4 {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  &.plans-grid--3x2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-// Carte plan tarifaire
 .plan-card {
   background: variables.$surface;
   padding: clamp(2rem, 3.5vw, 3rem);
@@ -48,7 +50,6 @@
 
   &:hover { background: variables.$bg; }
 
-  // Carte mise en avant
   &.plan-card--featured {
     background: variables.$bg;
 
@@ -88,8 +89,6 @@
     color: variables.$text-muted;
   }
 
-  // Variante taille réduite pour les prix "À partir de XXX€"
-  // avec texte introductif sur la première ligne
   &.plan-price--sm {
     font-size: clamp(1.6rem, 3vw, 2.2rem);
   }
@@ -124,6 +123,25 @@
       flex-shrink: 0;
       margin-top: .25rem;
     }
+  }
+}
+
+// Note tarifaire sous la grille des formules
+.plans-note {
+  text-align: center;
+  font-size: .78rem;
+  color: variables.$text-muted;
+  line-height: 1.8;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid variables.$border;
+
+  a {
+    color: variables.$gold;
+    text-decoration: none;
+    transition: opacity .3s ease;
+
+    &:hover { opacity: .7; }
   }
 }
 
@@ -198,7 +216,6 @@
   align-items: start;
 }
 
-// Liste des tarifs extras
 .extras-list {
   display: flex;
   flex-direction: column;
@@ -235,18 +252,20 @@
 // RESPONSIVE
 // ══════════════════════════════════════════════════════════════
 @media (max-width: variables.$desktop) {
-  .plans-grid    { grid-template-columns: repeat(2, 1fr); }
-  .plans-grid--4 { grid-template-columns: repeat(2, 1fr); }
-  .details-grid  { grid-template-columns: repeat(2, 1fr); }
-  .extras-grid   { grid-template-columns: 1fr; }
+  .plans-grid      { grid-template-columns: repeat(2, 1fr); }
+  .plans-grid--4   { grid-template-columns: repeat(2, 1fr); }
+  .plans-grid--3x2 { grid-template-columns: repeat(2, 1fr); }
+  .details-grid    { grid-template-columns: repeat(2, 1fr); }
+  .extras-grid     { grid-template-columns: 1fr; }
 }
 
 @media (max-width: variables.$tablet) {
-  .plans-grid    { grid-template-columns: 1fr; }
-  .plans-grid--4 { grid-template-columns: 1fr; }
-  .details-grid  { grid-template-columns: 1fr; }
+  .plans-grid      { grid-template-columns: 1fr; }
+  .plans-grid--4   { grid-template-columns: 1fr; }
+  .plans-grid--3x2 { grid-template-columns: 1fr; }
+  .details-grid    { grid-template-columns: 1fr; }
 }
 
 @media (max-width: variables.$mobile) {
-  .details-grid  { grid-template-columns: 1fr; }
+  .details-grid    { grid-template-columns: 1fr; }
 }
