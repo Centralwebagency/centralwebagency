@@ -1668,6 +1668,53 @@
   white-space: nowrap;
 }
 
+.abonnement-edito {
+  padding: clamp(5rem, 10vw, 9rem) 0;
+  background: #0D0E1A;
+}
+.abonnement-edito .section-label {
+  color: #C9A96E;
+  opacity: 1;
+}
+.abonnement-edito .section-title {
+  color: #F0EBE1;
+  opacity: 1;
+}
+.abonnement-edito .section-title em {
+  color: #C9A96E;
+}
+.abonnement-edito .section-body {
+  color: #757E98;
+  opacity: 1;
+}
+
+.cta-title-static {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2.5rem, 6vw, 5.5rem);
+  font-weight: 300;
+  line-height: 1.05;
+  color: #F0EBE1;
+  margin-bottom: 1.2rem;
+}
+.cta-title-static em {
+  color: #C9A96E;
+  font-style: italic;
+}
+
+.cta-sub-static {
+  font-size: 0.95rem;
+  color: #757E98;
+  margin-bottom: 3rem;
+}
+
+.cta-actions-static {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 1024px) {
   .plans-grid {
     grid-template-columns: repeat(2, 1fr);
