@@ -1,0 +1,475 @@
+// ══════════════════════════════════════════════════════════════
+// _fiches-metiers.scss
+// Fiches métiers — fiches-metiers/*.html
+// ──────────────────────────────────────────────────────────────
+// Styles communs à toutes les pages métiers :
+// coach sportif, esthéticienne, restaurant, artisan, VTC,
+// praticien bien-être, coiffeur/barbier, photographe, etc.
+//
+// Les composants globaux suivants sont DÉJÀ stylés ailleurs :
+// .site-nav, .site-footer, .container,
+// .section-label, .section-title, .section-body,
+// .btn-primary, .btn-ghost,
+// .method, .pricing, .faq, .cta-section.
+//
+// Ce fichier contient uniquement les éléments propres
+// aux fiches métiers.
+//
+// Tokens issus de _variables.scss.
+// ══════════════════════════════════════════════════════════════
+
+@use 'variables';
+
+
+// ══════════════════════════════════════════════════════════════
+// CONTEXTE GLOBAL DES FICHES
+// ══════════════════════════════════════════════════════════════
+
+.page-fiche {
+  --title: #{variables.$title};
+
+  background: variables.$bg;
+  color: variables.$text;
+
+  .section-title {
+    color: var(--title);
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// SECTIONS PRINCIPALES
+// ══════════════════════════════════════════════════════════════
+
+.fiche-hero,
+.fiche-problems,
+.fiche-why,
+.fiche-audience,
+.fiche-features,
+.fiche-compare,
+.fiche-advantages {
+  padding-block: variables.$section-v;
+  background: variables.$bg;
+}
+
+
+// Séparation discrète entre les sections.
+
+.fiche-problems,
+.fiche-why,
+.fiche-audience,
+.fiche-features,
+.fiche-compare,
+.fiche-advantages {
+  border-top: 1px solid variables.$border;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// EN-TÊTE DES SECTIONS
+// ══════════════════════════════════════════════════════════════
+
+.fiche-head {
+  max-width: 760px;
+  margin-inline: auto;
+
+  text-align: center;
+
+  .section-body {
+    margin-inline: auto;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// HERO
+// ══════════════════════════════════════════════════════════════
+
+.fiche-hero {
+  background:
+    radial-gradient(
+      60% 60% at 82% 10%,
+      variables.$gold-dim 0%,
+      transparent 65%
+    ),
+    variables.$bg;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items: center;
+
+    gap: clamp(2rem, 5vw, 4rem);
+  }
+}
+
+
+// ── Contenu texte ─────────────────────────────────────────────
+
+.fiche-hero-content {
+  .section-title {
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+  }
+}
+
+
+// ── Boutons ───────────────────────────────────────────────────
+
+.fiche-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+
+// ── Image métier ──────────────────────────────────────────────
+
+.fiche-hero-visual {
+  img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    border: 1px solid variables.$gold-border;
+    border-radius: 16px;
+
+    box-shadow:
+      0 24px 60px -20px rgba(0, 0, 0, .7);
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// GRILLES DES FICHES
+// ══════════════════════════════════════════════════════════════
+//
+// Même composant utilisé pour :
+// - problématiques
+// - bénéfices
+// - spécialités
+// - fonctionnalités
+// - avantages CWA
+// ══════════════════════════════════════════════════════════════
+
+.fiche-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+  gap: 1.5rem;
+  margin-top: 3rem;
+
+  text-align: left;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// CARTES
+// ══════════════════════════════════════════════════════════════
+
+.fiche-card {
+  padding: 2rem 1.75rem;
+
+  background: variables.$surface;
+
+  border: 1px solid variables.$border;
+  border-radius: 12px;
+
+  transition:
+    transform .3s variables.$ease,
+    border-color .3s variables.$ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: variables.$gold-border;
+  }
+
+  h3 {
+    margin: 0 0 .6rem;
+
+    font-family: variables.$font-display;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    color: variables.$text;
+  }
+
+  p {
+    margin: 0;
+
+    color: variables.$text-muted;
+
+    font-size: .95rem;
+  }
+}
+
+
+// Variante conservée pour compatibilité avec les fiches.
+
+.fiche-card--alt {
+  background: variables.$surface;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// ICÔNES DES CARTES
+// ══════════════════════════════════════════════════════════════
+
+.fiche-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1.25rem;
+
+  border-radius: 10px;
+
+  background: variables.$gold-dim;
+  color: variables.$gold;
+
+  font-size: 1.25rem;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// COMPARATIF
+// SITE VITRINE / SITE DYNAMIQUE
+// ══════════════════════════════════════════════════════════════
+
+.compare-wrap {
+  width: 100%;
+  margin-top: 3rem;
+
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+// ── Tableau ───────────────────────────────────────────────────
+//
+// On force explicitement le comportement natif d'un tableau.
+// Cela empêche d'éventuelles règles globales appliquées à
+// table / thead / tbody / tr / th / td de casser l'alignement.
+// ══════════════════════════════════════════════════════════════
+
+.compare-table {
+  display: table;
+
+  width: 100%;
+  min-width: 700px;
+
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+
+  // ── Structure native du tableau ─────────────────────────────
+
+  thead {
+    display: table-header-group;
+  }
+
+  tbody {
+    display: table-row-group;
+  }
+
+  tr {
+    display: table-row;
+  }
+
+  th,
+  td {
+    display: table-cell;
+
+    box-sizing: border-box;
+
+    padding: 1rem 1.25rem;
+
+    text-align: left;
+    vertical-align: middle;
+
+    border-bottom: 1px solid variables.$border;
+  }
+
+
+  // ════════════════════════════════════════════════════════════
+  // LARGEUR DES COLONNES
+  // ════════════════════════════════════════════════════════════
+  //
+  // Colonne 1 : critères        → 40 %
+  // Colonne 2 : site vitrine    → 30 %
+  // Colonne 3 : site dynamique  → 30 %
+  //
+  // Les mêmes dimensions sont imposées au THEAD et au TBODY
+  // afin que les titres soient exactement au-dessus des valeurs.
+  // ════════════════════════════════════════════════════════════
+
+  tr > :nth-child(1) {
+    width: 40%;
+  }
+
+  tr > :nth-child(2) {
+    width: 30%;
+  }
+
+  tr > :nth-child(3) {
+    width: 30%;
+  }
+
+
+  // ════════════════════════════════════════════════════════════
+  // EN-TÊTE
+  // ════════════════════════════════════════════════════════════
+
+  thead th {
+    font-family: variables.$font-display;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    color: variables.$gold;
+  }
+
+  thead th:first-child {
+    color: variables.$text-muted;
+
+    font-size: .95rem;
+  }
+
+
+  // ════════════════════════════════════════════════════════════
+  // PREMIÈRE COLONNE — CRITÈRES
+  // ════════════════════════════════════════════════════════════
+
+  tbody th {
+    color: variables.$text;
+
+    font-weight: 500;
+  }
+
+
+  // ════════════════════════════════════════════════════════════
+  // COLONNES VITRINE / DYNAMIQUE
+  // ════════════════════════════════════════════════════════════
+
+  tbody td {
+    color: variables.$text-muted;
+  }
+
+
+  // ════════════════════════════════════════════════════════════
+  // INDICATEURS OUI / NON
+  // ════════════════════════════════════════════════════════════
+
+  .yes {
+    color: variables.$gold-light;
+  }
+
+  .no {
+    color: variables.$text-muted;
+
+    opacity: .5;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// CTA INTERMÉDIAIRES
+// ══════════════════════════════════════════════════════════════
+
+.fiche-cta {
+  margin-top: 3rem;
+
+  text-align: center;
+
+  p {
+    margin-bottom: 1.25rem;
+
+    color: variables.$text-muted;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// ACCESSIBILITÉ
+// ══════════════════════════════════════════════════════════════
+
+.page-fiche a:focus-visible,
+.page-fiche .btn-primary:focus-visible,
+.page-fiche .btn-ghost:focus-visible {
+  outline: 2px solid variables.$gold-light;
+  outline-offset: 3px;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// RESPONSIVE — TABLETTE
+// ══════════════════════════════════════════════════════════════
+
+@media (max-width: variables.$tablet) {
+
+  // ── Hero ────────────────────────────────────────────────────
+
+  .fiche-hero {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .fiche-hero-visual {
+    margin-top: 1rem;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// RESPONSIVE — MOBILE
+// ══════════════════════════════════════════════════════════════
+
+@media (max-width: variables.$mobile) {
+
+  // ── Grilles ─────────────────────────────────────────────────
+
+  .fiche-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  // ── Boutons du hero ─────────────────────────────────────────
+
+  .fiche-hero-actions {
+    flex-direction: column;
+  }
+
+  .fiche-hero-actions .btn-primary,
+  .fiche-hero-actions .btn-ghost {
+    width: 100%;
+
+    justify-content: center;
+  }
+
+
+  // ── Tableau comparatif ───────────────────────────────────────
+  //
+  // On conserve les trois colonnes et on autorise le scroll
+  // horizontal plutôt que d'écraser leur contenu.
+
+  .compare-table {
+    min-width: 700px;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// ACCESSIBILITÉ — MOUVEMENTS RÉDUITS
+// ══════════════════════════════════════════════════════════════
+
+@media (prefers-reduced-motion: reduce) {
+
+  .fiche-card {
+    transition: none;
+  }
+}

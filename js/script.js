@@ -161,10 +161,54 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   })();
+  
+    /* ══════════════════════════════════════════════════════════════
+     7. BOUTON RETOUR EN HAUT
+     Apparaît après 500px de scroll
+  ══════════════════════════════════════════════════════════════ */
+(function initBackToTop() {
+  const backToTop = document.createElement('button');
 
+  backToTop.className = 'back-to-top';
+  backToTop.type = 'button';
+  backToTop.setAttribute('aria-label', 'Retour en haut de la page');
+  backToTop.innerHTML = '<i class="fa-solid fa-arrow-up" aria-hidden="true"></i>';
+
+  document.body.appendChild(backToTop);
+
+  // Compatible avec le curseur personnalisé
+  const cursorRing = document.getElementById('cursorRing');
+
+  if (cursorRing) {
+    backToTop.addEventListener('mouseenter', () => {
+      cursorRing.classList.add('hover');
+    });
+
+    backToTop.addEventListener('mouseleave', () => {
+      cursorRing.classList.remove('hover');
+    });
+  }
+
+  // Affiche le bouton après 500px de scroll
+  const onScroll = () => {
+    backToTop.classList.toggle('is-visible', window.scrollY > 500);
+  };
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // Retour fluide en haut de page
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+})();
   // Note : les vidéos utilisent l'attribut `controls` natif du navigateur.
   // Pas d'autoplay — l'utilisateur clique pour lancer.
 
 });
+
 
 

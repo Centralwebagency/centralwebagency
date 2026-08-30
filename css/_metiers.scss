@@ -1,0 +1,171 @@
+// ══════════════════════════════════════════════════════════════
+// _metiers.scss
+// Section "Métiers" : page hub (metiers.html) + socle des fiches
+// ──────────────────────────────────────────────────────────────
+// Header, footer, boutons (.btn-primary/.btn-ghost), .container,
+// .section-label/.section-title/.section-body et .cta-section sont
+// DÉJÀ stylés dans styles.css. On n'ajoute ici QUE le spécifique
+// aux métiers : contexte sombre, hero, intro, grille et cartes.
+// Tokens issus de _variables.scss, accédés via le namespace Sass.
+// ══════════════════════════════════════════════════════════════
+
+@use 'variables';
+
+
+// ── Contexte sombre de la page ───────────────────────────────
+// Indispensable : les titres .section-title / .section-body sont
+// de couleur CLAIRE (pensés pour un fond sombre). Sans ce fond,
+// ils deviennent illisibles sur le body clair par défaut.
+.page-metiers {
+  // Couleur des titres pilotable pour CETTE page uniquement.
+  // → variables.$title-alt pour des titres dorés, $title-dark pour un fond clair.
+  --title: #{variables.$title};
+
+  background: variables.$bg;
+  color: variables.$text;
+
+  // Les titres de section lisent la variable plutôt qu'une couleur figée
+  .section-title { color: var(--title); }
+}
+
+
+// ── Rythme vertical commun ───────────────────────────────────
+.metiers-hero,
+.metiers-intro,
+.metiers-grid-section {
+  padding-block: variables.$section-v;
+}
+
+
+// ── HERO ─────────────────────────────────────────────────────
+.metiers-hero {
+  text-align: center;
+  // Halo doré discret PAR-DESSUS le fond sombre (aucune image)
+  background: radial-gradient(60% 50% at 50% 0%, variables.$gold-dim 0%, transparent 70%),
+              variables.$bg;
+
+  // On grossit le H1 par rapport à un titre de section standard
+  .section-title { font-size: clamp(2.4rem, 6vw, 4rem); }
+  .section-body  { max-width: 640px; margin-inline: auto; }
+}
+
+.metiers-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+
+// ── INTRO ────────────────────────────────────────────────────
+.metiers-intro {
+  text-align: center;
+  background: variables.$surface;
+  border-block: 1px solid variables.$border;
+
+  .section-body { max-width: 760px; margin-inline: auto; }
+}
+
+
+// ── GRILLE ───────────────────────────────────────────────────
+.metiers-grid-section {
+  text-align: center;
+  background: variables.$bg;
+}
+
+.metiers-grid {
+  list-style: none;
+  margin: 3rem 0 0;
+  padding: 0;
+  display: grid;
+  // Autant de colonnes que la largeur le permet, min 260px par carte
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+
+
+// ── CARTE MÉTIER (le <a> entier est cliquable) ───────────────
+.metier-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  padding: 2rem 1.75rem;
+  background: variables.$surface;
+  border: 1px solid variables.$border;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform .3s variables.$ease,
+              border-color .3s variables.$ease,
+              box-shadow .3s variables.$ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: variables.$gold-border;
+    box-shadow: 0 16px 40px -12px rgba(0, 0, 0, .6),
+                0 0 0 1px variables.$gold-border;
+  }
+
+  &:focus-visible {
+    outline: 2px solid variables.$gold-light;
+    outline-offset: 3px;
+  }
+}
+
+.metier-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  background: variables.$gold-dim;
+  color: variables.$gold;          // l'icône Font Awesome hérite de cette couleur
+  font-size: 1.35rem;
+}
+
+.metier-name {
+  font-family: variables.$font-display;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: variables.$text;
+  margin: 0 0 .6rem;
+}
+
+.metier-desc {
+  color: variables.$text-muted;
+  font-size: .95rem;
+  margin: 0 0 1.5rem;
+  flex-grow: 1;                     // pousse le CTA en bas : cartes alignées
+}
+
+.metier-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: variables.$gold;
+  font-weight: 500;
+  font-size: .9rem;
+
+  i { transition: transform .25s variables.$ease; }
+}
+
+.metier-card:hover .metier-cta i { transform: translateX(4px); }
+
+
+// ── RESPONSIVE ───────────────────────────────────────────────
+@media (max-width: variables.$mobile) {
+  .metiers-grid { grid-template-columns: 1fr; }
+
+  .metiers-hero-actions { flex-direction: column; }
+  .metiers-hero-actions .btn-primary,
+  .metiers-hero-actions .btn-ghost { width: 100%; justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .metier-card,
+  .metier-cta i { transition: none; }
+}

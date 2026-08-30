@@ -36,3 +36,7 @@ $desktop:   1024px;
 $container: 1200px;
 $section-v: clamp(5rem, 10vw, 9rem);
 $ease:      cubic-bezier(0.16, 1, 0.3, 1);
+
+$title:      $text;            // titres par défaut (pages au fond sombre)
+$title-alt:  $gold-light;      // variante dorée, au choix selon la page
+$title-dark: $primary-color;   // titres pour une page au fond clair
