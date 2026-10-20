@@ -16,11 +16,8 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="manifest" href="images/site.webmanifest">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/vendor/google-fonts.css">
+  <link rel="stylesheet" href="/css/vendor/fontawesome.css">
   <link rel="stylesheet" href="css/styles.css">
 
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; form-action 'self' https://formspree.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self'; img-src 'self' https:;">
@@ -54,13 +51,13 @@
     </div>
     <nav aria-label="Navigation principale">
       <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="offres.html">Nos offres</a></li>
-        <li><a href="metiers.html">Métiers</a></li>
-        <li><a href="conseils.html">Nos conseils</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html" class="nav-btn">Devis gratuit</a></li>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/offres">Nos offres</a></li>
+        <li><a href="/metiers">Métiers</a></li>
+        <li><a href="/conseils">Nos conseils</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact" class="nav-btn">Devis gratuit</a></li>
       </ul>
     </nav>
     <button class="nav-burger" id="navBurger"
@@ -75,13 +72,13 @@
     </button>
     <nav aria-label="Navigation mobile">
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="offres.html">Nos offres</a></li>
-        <li><a href="metiers.html">Métiers</a></li>
-        <li><a href="conseils.html">Nos conseils</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/offres">Nos offres</a></li>
+        <li><a href="/metiers">Métiers</a></li>
+        <li><a href="/conseils">Nos conseils</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -93,7 +90,7 @@
     <section class="page-banner">
       <div class="page-banner-inner">
         <p class="section-label">Ressources &amp; conseils</p>
-        <h1 class="page-banner-title">Le <em>blog</em></h1>
+        <h1 class="page-banner-title" id="blog-title">Le <em>blog</em></h1>
         <p class="page-banner-sub">
           Guides pratiques, conseils SEO et ressources pour développer
           votre présence en ligne à Lyon et en Auvergne-Rhône-Alpes.
@@ -117,18 +114,18 @@
           <article class="blog-card">
             <div class="blog-card-meta">
               <span class="blog-tag">Tarifs</span>
-              <time datetime="2025-05-01">Mai 2025</time>
+              <time datetime="2026-05-01">Mai 2026</time>
             </div>
             <h2 class="blog-card-title">
-              <a href="blog/cout-site-vitrine-lyon.html">
-                Combien coûte un site vitrine à Lyon en 2025 ?
+              <a href="/blog/cout-site-vitrine-lyon">
+                Combien coûte un site vitrine à Lyon en 2026 ?
               </a>
             </h2>
             <p class="blog-card-excerpt">
               Prix d'un site vitrine à Lyon : agence, freelance, abonnement ou clé en main.
               On vous explique tout pour choisir sans mauvaise surprise.
             </p>
-            <a href="blog/cout-site-vitrine-lyon.html" class="blog-card-link">
+            <a href="/blog/cout-site-vitrine-lyon" class="blog-card-link">
               Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </a>
           </article>
@@ -137,18 +134,18 @@
           <article class="blog-card">
             <div class="blog-card-meta">
               <span class="blog-tag">SEO</span>
-              <time datetime="2025-05-01">Mai 2025</time>
+              <time datetime="2026-05-01">Mai 2026</time>
             </div>
             <h2 class="blog-card-title">
-              <a href="blog/pourquoi-site-vitrine-artisan-lyon.html">
-                Pourquoi un artisan à Lyon a besoin d'un site vitrine en 2025 ?
+              <a href="/blog/pourquoi-site-vitrine-artisan-lyon">
+                Pourquoi un artisan à Lyon a besoin d'un site vitrine en 2026 ?
               </a>
             </h2>
             <p class="blog-card-excerpt">
               Bouche à oreille, réseaux sociaux… c'est bien. Mais sans site vitrine,
               vous perdez des clients chaque jour. Voici pourquoi.
             </p>
-            <a href="blog/pourquoi-site-vitrine-artisan-lyon.html" class="blog-card-link">
+            <a href="/blog/pourquoi-site-vitrine-artisan-lyon" class="blog-card-link">
               Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </a>
           </article>
@@ -160,7 +157,7 @@
               <time datetime="2026-05-01">Mai 2026</time>
             </div>
             <h2 class="blog-card-title">
-              <a href="blog/choisir-agence-web-lyon.html">
+              <a href="/blog/choisir-agence-web-lyon">
                 Comment choisir son agence web à Lyon ?
               </a>
             </h2>
@@ -168,7 +165,7 @@
               Prix, délais, portfolio, contrat… les critères à vérifier avant de
               confier votre site à une agence web à Lyon ou en région lyonnaise.
             </p>
-            <a href="blog/choisir-agence-web-lyon.html" class="blog-card-link">
+            <a href="/blog/choisir-agence-web-lyon" class="blog-card-link">
               Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </a>
           </article>
@@ -180,7 +177,7 @@
               <time datetime="2026-05-01">Mai 2026</time>
             </div>
             <h2 class="blog-card-title">
-              <a href="blog/site-vitrine-mode-lyon.html">
+              <a href="/blog/site-vitrine-mode-lyon">
                 Site vitrine pour les métiers de la mode à Lyon
               </a>
             </h2>
@@ -188,7 +185,7 @@
               Mannequin, styliste, esthéticienne, photographe mode à Lyon —
               votre image en ligne doit être à la hauteur de votre talent.
             </p>
-            <a href="blog/site-vitrine-mode-lyon.html" class="blog-card-link">
+            <a href="/blog/site-vitrine-mode-lyon" class="blog-card-link">
               Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </a>
           </article>
@@ -199,15 +196,15 @@
               <time datetime="2026-05-01">Mai 2026</time>
             </div>
             <h2 class="blog-card-title">
-              <a href="blog/site-vitrine-coach-sportif-lyon.html">
-                Site vitrine pour coach sportif à Lyon
+              <a href="/blog/site-vitrine-coach-sportif-lyon">
+                Site de coach sportif à Lyon : quels contenus préparer ?
               </a>
             </h2>
             <p class="blog-card-excerpt">
               Coach personnel, préparateur physique, coach CrossFit à Lyon.
               Un site vitrine professionnel pour trouver des clients et asseoir votre crédibilité.
             </p>
-            <a href="blog/site-vitrine-coach-sportif-lyon.html" class="blog-card-link">
+            <a href="/blog/site-vitrine-coach-sportif-lyon" class="blog-card-link">
               Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
             </a>
           </article>
@@ -218,8 +215,8 @@
             <time datetime="2026-05-01">Mai 2026</time>
           </div>
           <h2 class="blog-card-title">
-            <a href="blog/site-vitrine-restaurant-lyon.html">
-              Site vitrine pour restaurant, bar et salon de thé à Lyon
+            <a href="/blog/site-vitrine-restaurant">
+              Site de restaurant à Lyon : carte, réservation et visibilité
           </a>
         </h2>
         <p class="blog-card-excerpt">
@@ -227,7 +224,7 @@
           professionnel pour afficher votre carte, attirer des réservations
           et vous démarquer sur Google Maps.
       </p>
-        <a href="blog/site-vitrine-restaurant.html" class="blog-card-link">
+        <a href="/blog/site-vitrine-restaurant" class="blog-card-link">
           Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
         </a>
       </article>
@@ -238,7 +235,7 @@
         <time datetime="2026-05-01">Mai 2026</time>
       </div>
       <h2 class="blog-card-title">
-      <a href="blog/importance-site-internet-2026.html">
+      <a href="/blog/importance-site-internet-2026">
         Pourquoi avoir un site internet est indispensable en 2026
       </a>
     </h2>
@@ -247,7 +244,7 @@
         Mais sans site internet, vous laissez des clients partir chaque jour
         sans même le savoir.
       </p>
-      <a href="blog/importance-site-internet-2026.html" class="blog-card-link">
+      <a href="/blog/importance-site-internet-2026" class="blog-card-link">
         Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </article>
@@ -258,15 +255,15 @@
     <time datetime="2026-05-01">Mai 2026</time>
   </div>
   <h2 class="blog-card-title">
-    <a href="blog/qui-sommes-nous-central-web-agency.html">
+    <a href="/blog/qui-sommes-nous-central-web-agency">
       Qui sommes-nous ? Central Web Agency, agence web à Lyon
     </a>
   </h2>
   <p class="blog-card-excerpt">
     Une équipe de développeurs passionnés basée à Heyrieux, près de Lyon.
-    Sites vitrines rapides, écologiques et ultra-performants.
+    Sites sur mesure et choix techniques adaptés à votre activité.
   </p>
-  <a href="blog/qui-sommes-nous-central-web-agency.html" class="blog-card-link">
+  <a href="/blog/qui-sommes-nous-central-web-agency" class="blog-card-link">
     Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
   </a>
 </article>
@@ -277,15 +274,15 @@
     <time datetime="2026-05-01">Mai 2026</time>
   </div>
   <h2 class="blog-card-title">
-    <a href="blog/seo-local-apparaitre-premier-google.html">
-      SEO local : comment apparaître en premier sur Google quand on est indépendant
+    <a href="/blog/seo-local-apparaitre-premier-google">
+      SEO local : développer sa visibilité sur Google
     </a>
   </h2>
   <p class="blog-card-excerpt">
     Référencement naturel, Google Business, mots-clés locaux.
     Tout ce qu'il faut savoir pour être visible sur Google sans payer de publicité.
   </p>
-  <a href="blog/seo-local-apparaitre-premier-google.html" class="blog-card-link">
+  <a href="/blog/seo-local-apparaitre-premier-google" class="blog-card-link">
     Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
   </a>
 </article>
@@ -297,7 +294,7 @@
     <time datetime="2026-05-01">Mai 2026</time>
   </div>
   <h2 class="blog-card-title">
-    <a href="blog/landing-page-one-page-site-vitrine.html">
+    <a href="/blog/landing-page-one-page-site-vitrine">
       Landing Page vs One-Page vs Site Vitrine classique : lequel choisir pour votre activité ?
     </a>
   </h2>
@@ -305,7 +302,7 @@
     Pas besoin du même format selon votre activité. Comparatif clair pour
     choisir entre Landing Page, One-Page et Site Vitrine classique.
   </p>
-  <a href="blog/landing-page-one-page-site-vitrine.html" class="blog-card-link">
+  <a href="/blog/landing-page-one-page-site-vitrine" class="blog-card-link">
     Lire l'article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
   </a>
 </article>
@@ -324,7 +321,7 @@
         </h2>
         <p class="cta-sub reveal">Devis gratuit et sans engagement sous 24h.</p>
         <div class="cta-actions reveal">
-          <a href="contact.html" class="btn-primary">
+          <a href="/contact" class="btn-primary">
             Demander mon devis <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
           </a>
           <a href="tel:0772049478" class="cta-tel">
@@ -351,19 +348,19 @@
           </a>
         </div>
         <div class="footer-col">
-          <h4>Navigation</h4>
+          <h2>Navigation</h2>
           <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="offres.html">Nos offres</a></li>
-            <li><a href="metiers.html">Métiers</a></li>
-            <li><a href="conseils.html">Nos conseils</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/offres">Nos offres</a></li>
+            <li><a href="/metiers">Métiers</a></li>
+            <li><a href="/conseils">Nos conseils</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h2>Contact</h2>
           <p>
             <a href="mailto:contact.centralwebagency@gmail.com">contact.centralwebagency@gmail.com</a>
             <br><br>
@@ -376,13 +373,13 @@
       <div class="footer-bottom">
         <p>© 2025 Central Web Agency — Tous droits réservés.</p>
         <nav class="footer-legal" aria-label="Liens légaux">
-          <a href="mentions-legales.html">Mentions légales</a>
-          <a href="cgv.html">CGV</a>
+          <a href="/mentions-legales">Mentions légales</a>
+          <a href="/cgv">CGV</a>
         </nav>
       </div>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 </html>

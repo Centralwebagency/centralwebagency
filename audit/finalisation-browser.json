@@ -1,0 +1,928 @@
+{
+  "checked_at_utc": "2026-10-20T02:35:45.029630+00:00",
+  "mode": "after",
+  "pages": [
+    {
+      "path": "/blog/choisir-agence-web-lyon",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/cout-site-vitrine-lyon",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/importance-site-internet-2026",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/landing-page-one-page-site-vitrine",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/pourquoi-site-vitrine-artisan-lyon",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/qui-sommes-nous-central-web-agency",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/seo-local-apparaitre-premier-google",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/site-vitrine-coach-sportif-lyon",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/site-vitrine-mode-lyon",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog/site-vitrine-restaurant",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/blog",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/cgv",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-backlinks",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-bouche-a-oreille",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-collaboration",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-google-business",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-reseaux-sociaux",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-seo",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils-tenir-site-a-jour",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/conseils",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/artisan-batiment",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/coach-sportif",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/coiffeur-barbier",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/estheticienne",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/metiers-du-droit",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/photographe",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/praticien-bien-etre",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/professionnels-sante",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/restaurant",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/fiches-metiers/vtc",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/mentions-legales",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/metiers",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "close_button_works": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/offres",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/sites-abonnement",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "clipped_faq": [],
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    },
+    {
+      "path": "/sites-cle-en-main",
+      "status": 200,
+      "js_errors": [],
+      "mobile_layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "mainWidth": 390
+      },
+      "menu_hidden_when_closed": true,
+      "menu_opens": true,
+      "menu_focus_inside": true,
+      "escape_closes": true,
+      "desktop_layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "tablet_layout": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "asset_errors": []
+    }
+  ],
+  "checks": {
+    "empty_form_invalid": true,
+    "invalid_email_rejected": true,
+    "completed_form_valid": true,
+    "form_action": "https://formspree.io/f/myzwearj",
+    "submit_event_reached": true,
+    "menu_focus_trapped": true,
+    "focus_restored": true,
+    "resize_unlocks_scroll": true,
+    "nojs_form_opacity": "1",
+    "nojs_faq_height": 129
+  }
+}

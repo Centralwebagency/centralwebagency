@@ -1,0 +1,129 @@
+[
+  {
+    "file": "css/vendor/fonts/google-co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w.woff2",
+    "sha256_download": "ae25de0507a445fd9e953e90432ae75b1ee2eccb48370a6ced4934551eb56fc3"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w.woff2",
+    "sha256_download": "cd5bf126b2c84ab41b254a6a9a1ffb5c326a0f9f82c22fb4704daa31c9aaa415"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w.woff2",
+    "sha256_download": "b8ecb4ae898cd9ccae2f2d18fd364f6593bb67776060f9b5d833cec65d34d112"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2",
+    "sha256_download": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w.woff2",
+    "sha256_download": "cb13c04533ee98c94e49a053b9f4d39bf616fd7ba6360d71aead92a78dc571f7"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2",
+    "sha256_download": "cfa9a397d86f66c5c51775a2500a712d5f632a04f0c5eca6930dfaf612d4566d"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2",
+    "sha256_download": "a4d7cf345b8091e1d2c8c5c8fa3bd0f9bb9d00bc8988185471db398ddb5ae4c4"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2",
+    "sha256_download": "6252e819a7665ae512c2d046308a9016ada63c06d0d8f96984c4b29f6c9e1bd2"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+    "sha256_download": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235"
+  },
+  {
+    "file": "css/vendor/fonts/google-co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2",
+    "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2",
+    "sha256_download": "017fab69b4be8ffc08ca312823327989ade6dc3d948f0afa125e12ec2e5e7ca1"
+  },
+  {
+    "file": "css/vendor/fonts/google-QGYvz_MVcBeNP4NJtEtq.woff2",
+    "source": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtq.woff2",
+    "sha256_download": "6c18d579fd87c3776be068b762cbc83fde3acb543d49eabd3ade842eb987e887"
+  },
+  {
+    "file": "css/vendor/fonts/google-QGYvz_MVcBeNP4NJuktqQ4E.woff2",
+    "source": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJuktqQ4E.woff2",
+    "sha256_download": "0f53d1c03b3918d744a843b5039001ee31695ca1e255e3914188df81beb461e9"
+  },
+  {
+    "file": "css/vendor/google-fonts.css",
+    "source": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap",
+    "sha256_download": "cfe11e4f20cede107ca22429d04999414336e2da7aee62afcb6040ec1c94fe69",
+    "sha256_original_css": "f4206cb834a13cd13e301ad7c7aed2a355eef3d6a2c1c32eb025c9a479c8b5e6"
+  },
+  {
+    "file": "css/vendor/fonts/fa-brands-400.ttf",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-brands-400.ttf",
+    "sha256_download": "5afff0a4df2650e9e2689c6021eb968f983eae2b388c2ce32ad853c0dd7f3788"
+  },
+  {
+    "file": "css/vendor/fonts/fa-brands-400.woff2",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-brands-400.woff2",
+    "sha256_download": "b66b3da5ff7b2db79b6cb5a22c3e762e2bf16958a11987e69eeb1980bbbcdfb0"
+  },
+  {
+    "file": "css/vendor/fonts/fa-regular-400.ttf",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-regular-400.ttf",
+    "sha256_download": "69ec55d72001a374fe40cd26ab4325e6312d0459b22372527bf539d28e2e2e47"
+  },
+  {
+    "file": "css/vendor/fonts/fa-regular-400.woff2",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-regular-400.woff2",
+    "sha256_download": "3a74c08d486310c03731b458616f0172375fe3780e96165f8a1adc02d1355eaa"
+  },
+  {
+    "file": "css/vendor/fonts/fa-solid-900.ttf",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-solid-900.ttf",
+    "sha256_download": "4ea5c3ff563052c2bc6534767c009dea4e2801b7a848bafeae87e9790eb0fc64"
+  },
+  {
+    "file": "css/vendor/fonts/fa-solid-900.woff2",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-solid-900.woff2",
+    "sha256_download": "f4c5a5b297e623bc159679563a4d1eb16e409ca3b57698fbc00fd2c907dadae0"
+  },
+  {
+    "file": "css/vendor/fonts/fa-v4compatibility.ttf",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-v4compatibility.ttf",
+    "sha256_download": "4694ef58b99d135ec4a4e7cf4b60681dff2cccf06604817a47a53c6ab41d3d2d"
+  },
+  {
+    "file": "css/vendor/fonts/fa-v4compatibility.woff2",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-v4compatibility.woff2",
+    "sha256_download": "33e73fb0656f23945b0d160507dba4dbcd315c3c18eedd0c1fd128ba88272b41"
+  },
+  {
+    "file": "css/vendor/fontawesome.css",
+    "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css",
+    "sha256_download": "848e75ff7c69437ef5c888637632e8f4f493d424c91b50612cb4c4bdad295f66",
+    "sha256_original_css": "c880eb3d25c765d399840aa204fec22b3230310991089f14781f09a35ed80b8a"
+  },
+  {
+    "file": "css/vendor/OFL-cormorant-garamond.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+    "sha256_download": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "file": "css/vendor/OFL-outfit.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/outfit/OFL.txt",
+    "sha256_download": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+  },
+  {
+    "file": "css/vendor/LICENSE-fontawesome.txt",
+    "source": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.5.0/LICENSE.txt",
+    "sha256_download": "0aa8f86525273b2efa4f40f4272a188e187704252170e979dc06879adf68d43c"
+  }
+]

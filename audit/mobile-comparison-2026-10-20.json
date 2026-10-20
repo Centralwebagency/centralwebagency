@@ -1,0 +1,313 @@
+{
+  "scope": "Local gzip server, same Chrome/Lighthouse mobile simulation; not production CWV",
+  "runs": [
+    {
+      "phase": "before",
+      "iteration": 1,
+      "scores": {
+        "performance": 0.74,
+        "accessibility": 0.98,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "largest-contentful-paint": 4460.41065,
+        "first-contentful-paint": 4378.70015,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "total-byte-weight": 1603418
+      }
+    },
+    {
+      "phase": "after",
+      "iteration": 1,
+      "scores": {
+        "performance": 1,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "largest-contentful-paint": 1514.6950000000006,
+        "first-contentful-paint": 1064.6950000000006,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.02963616456334258,
+        "total-byte-weight": 815726
+      }
+    },
+    {
+      "phase": "before",
+      "iteration": 2,
+      "scores": {
+        "performance": 0.74,
+        "accessibility": 0.98,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "largest-contentful-paint": 4422.1456499999995,
+        "first-contentful-paint": 4256.475649999999,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.02006446756661413,
+        "total-byte-weight": 1210457
+      }
+    },
+    {
+      "phase": "after",
+      "iteration": 2,
+      "scores": {
+        "performance": 1,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "largest-contentful-paint": 1515.6696,
+        "first-contentful-paint": 1065.6696,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.02963616456334258,
+        "total-byte-weight": 815726
+      }
+    }
+  ],
+  "visual_equivalence": [
+    {
+      "phase": "before",
+      "widths": [
+        {
+          "font": "300 60px \"Cormorant Garamond\"",
+          "width": 452.3398742675781,
+          "ready": true
+        },
+        {
+          "font": "italic 300 60px \"Cormorant Garamond\"",
+          "width": 409.3799133300781,
+          "ready": true
+        },
+        {
+          "font": "400 16px Outfit",
+          "width": 142.59979248046875,
+          "ready": true
+        },
+        {
+          "font": "600 16px Outfit",
+          "width": 144.54385375976562,
+          "ready": true
+        },
+        {
+          "font": "900 24px \"Font Awesome 6 Free\"",
+          "width": 275.66015625,
+          "ready": true
+        },
+        {
+          "font": "400 24px \"Font Awesome 6 Brands\"",
+          "width": 274.3125,
+          "ready": true
+        }
+      ],
+      "styles": [
+        {
+          "selector": ".hero-title",
+          "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+          "fontSize": "112px",
+          "fontWeight": "300",
+          "lineHeight": "117.6px",
+          "color": "rgb(240, 235, 225)",
+          "marginTop": "75.04px",
+          "marginBottom": "24px"
+        },
+        {
+          "selector": ".hero-sub",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "18.4px",
+          "fontWeight": "300",
+          "lineHeight": "32.2px",
+          "color": "rgb(117, 126, 152)",
+          "marginTop": "0px",
+          "marginBottom": "40px"
+        },
+        {
+          "selector": ".btn-primary",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "12.8px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "color": "rgb(8, 9, 15)",
+          "marginTop": "0px",
+          "marginBottom": "0px"
+        },
+        {
+          "selector": ".feature-card h3, .feature-card h4",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "14.08px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "color": "rgb(240, 235, 225)",
+          "marginTop": "18.7264px",
+          "marginBottom": "4px"
+        },
+        {
+          "selector": ".footer-col h2, .footer-col h4",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "10.88px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "color": "rgb(117, 126, 152)",
+          "marginTop": "14.4704px",
+          "marginBottom": "24px"
+        }
+      ],
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "italic"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Outfit",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Font Awesome 6 Brands",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Font Awesome 6 Free",
+          "weight": "900",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "widths": [
+        {
+          "font": "300 60px \"Cormorant Garamond\"",
+          "width": 452.3398742675781,
+          "ready": true
+        },
+        {
+          "font": "italic 300 60px \"Cormorant Garamond\"",
+          "width": 409.3799133300781,
+          "ready": true
+        },
+        {
+          "font": "400 16px Outfit",
+          "width": 142.59979248046875,
+          "ready": true
+        },
+        {
+          "font": "600 16px Outfit",
+          "width": 144.54385375976562,
+          "ready": true
+        },
+        {
+          "font": "900 24px \"Font Awesome 6 Free\"",
+          "width": 275.66015625,
+          "ready": true
+        },
+        {
+          "font": "400 24px \"Font Awesome 6 Brands\"",
+          "width": 274.3125,
+          "ready": true
+        }
+      ],
+      "styles": [
+        {
+          "selector": ".hero-title",
+          "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+          "fontSize": "112px",
+          "fontWeight": "300",
+          "lineHeight": "117.6px",
+          "color": "rgb(240, 235, 225)",
+          "marginTop": "75.04px",
+          "marginBottom": "24px"
+        },
+        {
+          "selector": ".hero-sub",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "18.4px",
+          "fontWeight": "300",
+          "lineHeight": "32.2px",
+          "color": "rgb(117, 126, 152)",
+          "marginTop": "0px",
+          "marginBottom": "40px"
+        },
+        {
+          "selector": ".btn-primary",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "12.8px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "color": "rgb(8, 9, 15)",
+          "marginTop": "0px",
+          "marginBottom": "0px"
+        },
+        {
+          "selector": ".feature-card h3, .feature-card h4",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "14.08px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "color": "rgb(240, 235, 225)",
+          "marginTop": "18.7264px",
+          "marginBottom": "4px"
+        },
+        {
+          "selector": ".footer-col h2, .footer-col h4",
+          "fontFamily": "Poppins, sans-serif",
+          "fontSize": "10.88px",
+          "fontWeight": "500",
+          "lineHeight": "normal",
+          "color": "rgb(117, 126, 152)",
+          "marginTop": "14.4704px",
+          "marginBottom": "24px"
+        }
+      ],
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "italic"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "normal"
+        },
+        {
+          "family": "Outfit",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Font Awesome 6 Brands",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Font Awesome 6 Free",
+          "weight": "900",
+          "style": "normal"
+        }
+      ]
+    }
+  ]
+}

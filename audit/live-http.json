@@ -1,0 +1,3270 @@
+{
+  "checked_at_utc": "2026-10-19T19:15:28.627153+00:00",
+  "results": [
+    {
+      "url": "https://central-web-agency.com/",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "32009",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:17 GMT",
+        "Etag": "\"5780cb596cf07537660484bac1fb6be3-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDVXA40210CQ0756YGRJ5",
+        "Connection": "close"
+      },
+      "bytes": 32009,
+      "sha256": "73f2285daab8520b9af1d587ad8a070760d055449e5a8e7dae1d8b8dd43551a1",
+      "title": [
+        "Création de sites web en France | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/services",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/services",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17860",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:17 GMT",
+        "Etag": "\"58fd9be69d34a24e9f80abdeb8e010b9-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDVXB6NJ9X1JYZXED0XER",
+        "Connection": "close"
+      },
+      "bytes": 17860,
+      "sha256": "73b3e790cc29c0ff473e9beadf53e3dbda48c93f4024da8408833962b96e4b2b",
+      "title": [
+        "Services web sur mesure | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/services"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/offres",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/offres",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "30250",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:17 GMT",
+        "Etag": "\"5b0e26ba07a6ed769c21a32e3ab18052-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDVXBCWSXCT88CK7GSQ1T",
+        "Connection": "close"
+      },
+      "bytes": 30250,
+      "sha256": "98abdce80139ac18f79d73bdff2ffe02e45e317d628c71f3aaa974dd2bd1dcdc",
+      "title": [
+        "Tarifs création de sites web | Central Web Agency Lyon"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/offres"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/sites-cle-en-main",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/sites-cle-en-main",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "38347",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:17 GMT",
+        "Etag": "\"02d4f8d0172b441e8c9fc4539874b800-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDVXBA1DQBKMMGZKHGCMZ",
+        "Connection": "close"
+      },
+      "bytes": 38347,
+      "sha256": "d2d6a8cb6cd0fbd31b220acd5169851add8b48f219fdcd4faed09b3fa833566e",
+      "title": [
+        "Site web clé en main | Central Web Agency Lyon"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/sites-cle-en-main"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/sites-abonnement",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/sites-abonnement",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "39646",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:18 GMT",
+        "Etag": "\"c681966ec3fdb8d4d790ff7a6ea8171f-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDWP0DBA2NNWAFG2VVC1F",
+        "Connection": "close"
+      },
+      "bytes": 39646,
+      "sha256": "b3c8f284edc6ead5d9810bde1f5db13e242043cd1ed3e1c8c3e86c914f600045",
+      "title": [
+        "Maintenance de sites web dès 39 €/mois | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/sites-abonnement"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17393",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:18 GMT",
+        "Etag": "\"c832b3489c0b1c8dab527dc5fa259a3b-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDWP6NEWQWDSR8PJ64XPE",
+        "Connection": "close"
+      },
+      "bytes": 17393,
+      "sha256": "1ead105420a2d3bebb3cc23e63de6559f5f845db96d66efabe8da184d0c69e34",
+      "title": [
+        "Conseils visibilité en ligne à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "16095",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:18 GMT",
+        "Etag": "\"333155186fc5303c583cb01db6da4dca-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDWP03H66M0Q66WWJ6YWN",
+        "Connection": "close"
+      },
+      "bytes": 16095,
+      "sha256": "82e563c2acc4c053ec67381fa4a90e659e4a2e5e0d9282c4f4ea5bb202bc6b4b",
+      "title": [
+        "Blog — Conseils création site vitrine Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": false
+    },
+    {
+      "url": "https://central-web-agency.com/metiers",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/metiers",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18256",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:18 GMT",
+        "Etag": "\"211720b03968b2a1ab1caa63cad25b81-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDWP0DDMS3GFZVNCQ50N7",
+        "Connection": "close"
+      },
+      "bytes": 18256,
+      "sha256": "6a850149aa3396e9c3bd656b7e4a65196373d0656b802f2ff85d0069a4cb764e",
+      "title": [
+        "Création de site internet par métier | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/metiers"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/contact",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/contact",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "14076",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:19 GMT",
+        "Etag": "\"414d47af45753f306edad194016010d1-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDXJKB80NV6S6TZM2KHHX",
+        "Connection": "close"
+      },
+      "bytes": 14076,
+      "sha256": "7333c951f41391c5422d07ac3121c2f2fce32961478190a22362ae9ce1b4e08d",
+      "title": [
+        "Contactez-nous — Devis gratuit sous 24h | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/contact"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/mentions-legales",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/mentions-legales",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "9055",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:19 GMT",
+        "Etag": "\"616b0ab67191e2817e0f1e672220f1fb-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDXFDTHNEM1FPS0CR1RCP",
+        "Connection": "close"
+      },
+      "bytes": 9055,
+      "sha256": "bed7b412261d12e3992ce646b4180d6773657d1c3115389b7b6501591f916849",
+      "title": [
+        "Mentions légales | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/mentions-legales"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/cgv",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/cgv",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "35667",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:19 GMT",
+        "Etag": "\"f3cfb7142d4aacffead20614c0b1662b-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDXFCAS7XZSWYFKRZJPK8",
+        "Connection": "close"
+      },
+      "bytes": 35667,
+      "sha256": "e3e34633a9712d907f82f0c0ab59c89cd5c4c4c6cb429dff6fc7f6745f435646",
+      "title": [
+        "Conditions Générales de Vente | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/cgv"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-bouche-a-oreille",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-bouche-a-oreille",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10722",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:19 GMT",
+        "Etag": "\"dc1bc3e44bb0bc0bf86eebd09d13d51c-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDXFCYYHCNXHHGFW7C93J",
+        "Connection": "close"
+      },
+      "bytes": 10722,
+      "sha256": "2152ef4b6caebd39360601c5232ed44d0ed143b2d5c5b0a99be49099cb1dc288",
+      "title": [
+        "Le pouvoir du bouche à oreille pour votre activité | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-bouche-a-oreille"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-collaboration",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-collaboration",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10786",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:19 GMT",
+        "Etag": "\"88bf0facc906e64486a0d3cbf4feada8-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDXY8R99BTR385FEY97D4",
+        "Connection": "close"
+      },
+      "bytes": 10786,
+      "sha256": "0af2970a6cddab21d8f4a7dd8a4faa055f24f7c1c97a6141fd952650391fd202",
+      "title": [
+        "Développer votre visibilité grâce aux collaborations | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-collaboration"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-google-business",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-google-business",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10928",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:19 GMT",
+        "Etag": "\"fa2a3aa5d484b93008c1bf8a9cba0e1f-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDY2GG3XB13YR2P5QJDB6",
+        "Connection": "close"
+      },
+      "bytes": 10928,
+      "sha256": "292802fe378c04259b5f40929a93fe716ffac2fd43f7135caab7f28e6debc2bd",
+      "title": [
+        "Optimiser votre fiche Google Business à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-google-business"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-reseaux-sociaux",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-reseaux-sociaux",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10959",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:20 GMT",
+        "Etag": "\"a4d1127a4865ec38a358e03e85301af4-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDY2R3B7SJDJ996DRFG1R",
+        "Connection": "close"
+      },
+      "bytes": 10959,
+      "sha256": "81a0f48289796c7b664c6da4c9ae100d648c7d2fb5a0165fda3c44afb976739e",
+      "title": [
+        "Réseaux sociaux pour booster votre visibilité à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-reseaux-sociaux"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-seo",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-seo",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "2",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "11614",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:20 GMT",
+        "Etag": "\"a2e2016cc47432260a44482453df36fe-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDY2MHEZR02JCJY8RC7Z7",
+        "Connection": "close"
+      },
+      "bytes": 11614,
+      "sha256": "8de6e55cb49ff801e76c2f287287d55a1a3c290be22a910d18ce1bbf2cc4c2d3",
+      "title": [
+        "Conseils SEO pour améliorer votre visibilité à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-seo"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-tenir-site-a-jour",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-tenir-site-a-jour",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10912",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:20 GMT",
+        "Etag": "\"32b51a29f39caa4f9442805f363f6d3d-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDYFA8KT1CQK0HP73BSE3",
+        "Connection": "close"
+      },
+      "bytes": 10912,
+      "sha256": "2f2ff31addc5578d48abeeb5f24900c4458d91020b07643a18bbf2e495ddbf83",
+      "title": [
+        "Pourquoi tenir son site web à jour est essentiel | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-tenir-site-a-jour"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-backlinks",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-backlinks",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "13707",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:20 GMT",
+        "Etag": "\"6895d9c7588b4965814be63ede74b46b-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDYJ7T6N6FNFCNKJP16A4",
+        "Connection": "close"
+      },
+      "bytes": 13707,
+      "sha256": "294cdf9a079f3ff9b3be29d79b169341d30cf043f9f0c37a339e50f0ebcc3226",
+      "title": [
+        "Obtenir des backlinks pour améliorer votre référencement | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-backlinks"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/choisir-agence-web-lyon",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/choisir-agence-web-lyon",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "19011",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:20 GMT",
+        "Etag": "\"2ebfeaa0705b4fc1e279d9a3fb158cca-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDYS09EN05EMZ0AZGG9RQ",
+        "Connection": "close"
+      },
+      "bytes": 19011,
+      "sha256": "5b4079b05214a7b9cd2ff66308276cc09a9dfbff196d604c35525531b5772cd7",
+      "title": [
+        "Comment choisir son agence web à Lyon en 2026 | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/choisir-agence-web-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/cout-site-vitrine-lyon",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/cout-site-vitrine-lyon",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "19157",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:20 GMT",
+        "Etag": "\"ef127fc40e2fc3d1923ee8961a6da78a-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDYRZ58G5NF8GXAJZCEM7",
+        "Connection": "close"
+      },
+      "bytes": 19157,
+      "sha256": "9394e7f6b72872cfd2563da6ba97421be5dd90253849f752abf74067aac06e0d",
+      "title": [
+        "Combien coûte un site vitrine à Lyon en 2026 ? | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/cout-site-vitrine-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/importance-site-internet-2026",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/importance-site-internet-2026",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18375",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"b843cf46fa0ff3da63ad343a7c946249-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZ4QQEDZX50WR37P0S0Y",
+        "Connection": "close"
+      },
+      "bytes": 18375,
+      "sha256": "44558f110523d134f43d12533bee143ec28a64ed53caf8659ad89a340d9ee9dd",
+      "title": [
+        "Pourquoi avoir un site internet est indispensable en 2026 | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/importance-site-internet-2026"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "19223",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"40e7e1bbd619ba18f0fc3f17e88950a7-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZ4QEH419J9FTAHPHYBG",
+        "Connection": "close"
+      },
+      "bytes": 19223,
+      "sha256": "e1f969e2d2349be32c4634ddfc8c1025938e61b9dcdddbaadd5f016258de0fb9",
+      "title": [
+        "Landing Page vs One-Page vs Site Vitrine : lequel choisir ? | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18162",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"3a5eb77e79f3428c6680351b18c8bdcf-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZC539MTETQN19MP2Q6W",
+        "Connection": "close"
+      },
+      "bytes": 18162,
+      "sha256": "4922a379c4228596d55572a60051eca79b5f729238c954f8c36b3bcdc2dd9938",
+      "title": [
+        "Pourquoi un artisan à Lyon a besoin d'un site vitrine en 2026 | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "16981",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"876e16719c1aba498f41fbd154a3f344-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZC4CSGXYFV0Q8EFV1E5",
+        "Connection": "close"
+      },
+      "bytes": 16981,
+      "sha256": "8733aa9d47870324a090d892415bcea47412b86f86fc709a363274e8da7fe621",
+      "title": [
+        "Qui sommes-nous ? Central Web Agency, agence web à Lyon | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "20642",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"795bffd138171175d3a0655be804d713-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZPQDB6J13PEARHKVA6X",
+        "Connection": "close"
+      },
+      "bytes": 20642,
+      "sha256": "3fa9801502dde02d4e11ccfb3dc988695cc40a281dfb6319ef0b078f332feb11",
+      "title": [
+        "SEO local : comment apparaître en premier sur Google quand on est indépendant | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17726",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"1bad1acd6d2f7a31bf3c13d6c55316b4-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZW4GJZQZP5Q8H2TQ9J1",
+        "Connection": "close"
+      },
+      "bytes": 17726,
+      "sha256": "c8c11a15656fb7173fcf57ea502cd4ace2411be7257318f369a40b704bd2beb5",
+      "title": [
+        "Site vitrine pour coach sportif à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-mode-lyon",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-mode-lyon",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18403",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"3b0e3ca9bef8a01becc7df31510140aa-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASDZZQ1GYJFF8XBAH1DPCN",
+        "Connection": "close"
+      },
+      "bytes": 18403,
+      "sha256": "01720b52c84f9517b9c9704c97446dfa000a51ec959c1156a8c2caae91513aa0",
+      "title": [
+        "Site vitrine pour les métiers de la mode à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-mode-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-restaurant",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-restaurant",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18953",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:21 GMT",
+        "Etag": "\"4885741904fe8355fd24021da8460bde-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0107EK5G4TBDC04MAG8",
+        "Connection": "close"
+      },
+      "bytes": 18953,
+      "sha256": "6f4a326c759db909dae12ea25ab3ce1ae1b40887f7c884b3b78fc635cb907c3a",
+      "title": [
+        "Site vitrine pour restaurant, bar et salon de thé à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-restaurant"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/artisan-batiment",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/artisan-batiment",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "52161",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"8e3e596ca5b9033544194b2d9b02fa26-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE06GBMRJB5GDFDNC22M3",
+        "Connection": "close"
+      },
+      "bytes": 52161,
+      "sha256": "890432db10c27b662c5c7da754f9511a55b981183f5314442553143543245527",
+      "title": [
+        "Création de site internet pour artisan du bâtiment | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/artisan-batiment"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/coach-sportif",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/coach-sportif",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "58947",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"a1ea04abb48ec9c13d1411f97508d06c-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE07Q0S6DWNFKXRMR848N",
+        "Connection": "close"
+      },
+      "bytes": 58947,
+      "sha256": "f61934b02664a6c06df24a4120e9eeabddd05cb08be63c542c6fd9e4ed7de1c8",
+      "title": [
+        "Création de site internet pour coach sportif | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/coach-sportif"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/coiffeur-barbier",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/coiffeur-barbier",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "50674",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"d577ce99f5dd794790c405c21afb2fcc-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0H0HYHESWMWNTWSYJ66",
+        "Connection": "close"
+      },
+      "bytes": 50674,
+      "sha256": "b42a38531e7daeb05cc730b9b553366ec8e5dcdbcecc446922f19370937ccff7",
+      "title": [
+        "Création de site internet pour coiffeur & barbier | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/coiffeur-barbier"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/estheticienne",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/estheticienne",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "54035",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"d2f1e1164484bd88f762793f3531fe9e-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0E3DX3446EE95VFKXA7",
+        "Connection": "close"
+      },
+      "bytes": 54035,
+      "sha256": "15142150169571b8a3aec7a10fe4a46d7f321abc34c76d49998f4bcde36ac9ef",
+      "title": [
+        "Création de site internet pour esthéticienne | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/estheticienne"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/metiers-du-droit",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/metiers-du-droit",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "51171",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"fabab328478781d237ebeffcf72def43-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0X797MH8FTN4WPD4AVA",
+        "Connection": "close"
+      },
+      "bytes": 51171,
+      "sha256": "66b7ea454c5f47f1063f562e33c28d4046f9f16403d9a43bc526ad0ddb253caf",
+      "title": [
+        "Création de site internet pour métiers du droit | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/metiers-du-droit"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/photographe",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/photographe",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "48354",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"62817c5c7e1b8ee01b8b031d81944116-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0TBBVNTFFEVWDM9E78T",
+        "Connection": "close"
+      },
+      "bytes": 48354,
+      "sha256": "6d429fbec4615c716df39a95d9555412093fb1a4db5c8b866f7a43f52b2f6186",
+      "title": [
+        "Création de site internet pour photographe | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/photographe"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/praticien-bien-etre",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/praticien-bien-etre",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "52529",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"44b8550c92da2a63ecfd3d5fe02ed868-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0WQJKMKPMPVSRA1QY7P",
+        "Connection": "close"
+      },
+      "bytes": 52529,
+      "sha256": "ebef5657e3eb5bdcee88a1230a60644801a4a3251f20a9915c4a084882bf1121",
+      "title": [
+        "Création de site internet pour praticien bien-être | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/praticien-bien-etre"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/professionnels-sante",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/professionnels-sante",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "50639",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:22 GMT",
+        "Etag": "\"74a808aeb9f08c8b0a9a1fb02e508559-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE0YQ7XQS2DEQ4CV1X1NC",
+        "Connection": "close"
+      },
+      "bytes": 50639,
+      "sha256": "fef518846a6217eeb51fcf6fef7a1e12a4c0b20ded429e6017991108e0545110",
+      "title": [
+        "Création de site internet pour professionnel de santé | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/professionnels-sante"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/restaurant",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/restaurant",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "52533",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:23 GMT",
+        "Etag": "\"e1019097a53afe113748e5d3da3162f0-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE1788R3CEHG0S1RW87HW",
+        "Connection": "close"
+      },
+      "bytes": 52533,
+      "sha256": "6826aba2b3c3120241ccf23e7716acd475a8c1035f4c7d660d3746980bbcb8e0",
+      "title": [
+        "Création de site internet pour restaurant | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/restaurant"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/vtc",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/vtc",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "49384",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:23 GMT",
+        "Etag": "\"8df3aabb18a1df54834ab717a8dcfd96-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE1F7WE8HH45QYBFEFCTD",
+        "Connection": "close"
+      },
+      "bytes": 49384,
+      "sha256": "b73721a94246bbbb3df183994c4380beb906d0f7a749b61a233798eb053911eb",
+      "title": [
+        "Création de site internet pour chauffeur VTC | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/vtc"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "same_as_local_normalized": true
+    },
+    {
+      "url": "https://central-web-agency.com/index.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/index.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "32009",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:23 GMT",
+        "Etag": "\"5780cb596cf07537660484bac1fb6be3-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE1S4KD5MW2EJG387TAVP",
+        "Connection": "close"
+      },
+      "bytes": 32009,
+      "sha256": "73f2285daab8520b9af1d587ad8a070760d055449e5a8e7dae1d8b8dd43551a1",
+      "title": [
+        "Création de sites web en France | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "16095",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:23 GMT",
+        "Etag": "\"333155186fc5303c583cb01db6da4dca-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE1M73JSY319R34AD31RE",
+        "Connection": "close"
+      },
+      "bytes": 16095,
+      "sha256": "82e563c2acc4c053ec67381fa4a90e659e4a2e5e0d9282c4f4ea5bb202bc6b4b",
+      "title": [
+        "Blog — Conseils création site vitrine Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/cgv.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/cgv",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/cgv.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/cgv"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "35667",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:23 GMT",
+        "Etag": "\"f3cfb7142d4aacffead20614c0b1662b-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE1XFPBDXT4K9D4V1NTQD",
+        "Connection": "close"
+      },
+      "bytes": 35667,
+      "sha256": "e3e34633a9712d907f82f0c0ab59c89cd5c4c4c6cb429dff6fc7f6745f435646",
+      "title": [
+        "Conditions Générales de Vente | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/cgv"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17393",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:23 GMT",
+        "Etag": "\"c832b3489c0b1c8dab527dc5fa259a3b-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE22VSXV0WCGMMZQ24VAE",
+        "Connection": "close"
+      },
+      "bytes": 17393,
+      "sha256": "1ead105420a2d3bebb3cc23e63de6559f5f845db96d66efabe8da184d0c69e34",
+      "title": [
+        "Conseils visibilité en ligne à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/contact.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/contact",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/contact.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/contact"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "2",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "14076",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"414d47af45753f306edad194016010d1-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE22V0YQZPXZDNEB5QP2M",
+        "Connection": "close"
+      },
+      "bytes": 14076,
+      "sha256": "7333c951f41391c5422d07ac3121c2f2fce32961478190a22362ae9ce1b4e08d",
+      "title": [
+        "Contactez-nous — Devis gratuit sous 24h | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/contact"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/mentions-legales.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/mentions-legales",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/mentions-legales.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/mentions-legales"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "9055",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"616b0ab67191e2817e0f1e672220f1fb-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE26MH75Y51Z9WPF9S183",
+        "Connection": "close"
+      },
+      "bytes": 9055,
+      "sha256": "bed7b412261d12e3992ce646b4180d6773657d1c3115389b7b6501591f916849",
+      "title": [
+        "Mentions légales | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/mentions-legales"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/metiers.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/metiers",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/metiers.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/metiers"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18256",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"211720b03968b2a1ab1caa63cad25b81-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2CEH32B9RDFVHTRHFZY",
+        "Connection": "close"
+      },
+      "bytes": 18256,
+      "sha256": "6a850149aa3396e9c3bd656b7e4a65196373d0656b802f2ff85d0069a4cb764e",
+      "title": [
+        "Création de site internet par métier | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/metiers"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/offres.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/offres",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/offres.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/offres"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "30250",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"5b0e26ba07a6ed769c21a32e3ab18052-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2EZ1EXTTQEV1PXH2E5P",
+        "Connection": "close"
+      },
+      "bytes": 30250,
+      "sha256": "98abdce80139ac18f79d73bdff2ffe02e45e317d628c71f3aaa974dd2bd1dcdc",
+      "title": [
+        "Tarifs création de sites web | Central Web Agency Lyon"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/offres"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/services.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/services",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/services.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/services"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17860",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"58fd9be69d34a24e9f80abdeb8e010b9-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2FMM54B2A1CAS1NTFWD",
+        "Connection": "close"
+      },
+      "bytes": 17860,
+      "sha256": "73b3e790cc29c0ff473e9beadf53e3dbda48c93f4024da8408833962b96e4b2b",
+      "title": [
+        "Services web sur mesure | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/services"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/sites-abonnement.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/sites-abonnement",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/sites-abonnement.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/sites-abonnement"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "39646",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"c681966ec3fdb8d4d790ff7a6ea8171f-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2H4C4FAANMZQDHD0MXE",
+        "Connection": "close"
+      },
+      "bytes": 39646,
+      "sha256": "b3c8f284edc6ead5d9810bde1f5db13e242043cd1ed3e1c8c3e86c914f600045",
+      "title": [
+        "Maintenance de sites web dès 39 €/mois | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/sites-abonnement"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/sites-cle-en-main.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/sites-cle-en-main",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/sites-cle-en-main.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/sites-cle-en-main"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "38347",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"02d4f8d0172b441e8c9fc4539874b800-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2V6G5Y3BX07GPRMC45P",
+        "Connection": "close"
+      },
+      "bytes": 38347,
+      "sha256": "d2d6a8cb6cd0fbd31b220acd5169851add8b48f219fdcd4faed09b3fa833566e",
+      "title": [
+        "Site web clé en main | Central Web Agency Lyon"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/sites-cle-en-main"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-backlinks.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-backlinks",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-backlinks.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-backlinks"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "13707",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"6895d9c7588b4965814be63ede74b46b-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2WY2SY5S9ZFEQ4AX7ZW",
+        "Connection": "close"
+      },
+      "bytes": 13707,
+      "sha256": "294cdf9a079f3ff9b3be29d79b169341d30cf043f9f0c37a339e50f0ebcc3226",
+      "title": [
+        "Obtenir des backlinks pour améliorer votre référencement | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-backlinks"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-bouche-a-oreille.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-bouche-a-oreille",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-bouche-a-oreille.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-bouche-a-oreille"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10722",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"dc1bc3e44bb0bc0bf86eebd09d13d51c-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2YJ2W26QQBCJ9CMXBHT",
+        "Connection": "close"
+      },
+      "bytes": 10722,
+      "sha256": "2152ef4b6caebd39360601c5232ed44d0ed143b2d5c5b0a99be49099cb1dc288",
+      "title": [
+        "Le pouvoir du bouche à oreille pour votre activité | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-bouche-a-oreille"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-collaboration.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-collaboration",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-collaboration.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-collaboration"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10786",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:24 GMT",
+        "Etag": "\"88bf0facc906e64486a0d3cbf4feada8-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE2ZJZXFZ3JRDVKAEKCT2",
+        "Connection": "close"
+      },
+      "bytes": 10786,
+      "sha256": "0af2970a6cddab21d8f4a7dd8a4faa055f24f7c1c97a6141fd952650391fd202",
+      "title": [
+        "Développer votre visibilité grâce aux collaborations | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-collaboration"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-google-business.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-google-business",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-google-business.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-google-business"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10928",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"fa2a3aa5d484b93008c1bf8a9cba0e1f-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE398ACAHNZPEBR2QX2K9",
+        "Connection": "close"
+      },
+      "bytes": 10928,
+      "sha256": "292802fe378c04259b5f40929a93fe716ffac2fd43f7135caab7f28e6debc2bd",
+      "title": [
+        "Optimiser votre fiche Google Business à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-google-business"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-reseaux-sociaux.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-reseaux-sociaux",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-reseaux-sociaux.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-reseaux-sociaux"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10959",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"a4d1127a4865ec38a358e03e85301af4-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE3AMR90HMBK1R0BQYZK2",
+        "Connection": "close"
+      },
+      "bytes": 10959,
+      "sha256": "81a0f48289796c7b664c6da4c9ae100d648c7d2fb5a0165fda3c44afb976739e",
+      "title": [
+        "Réseaux sociaux pour booster votre visibilité à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-reseaux-sociaux"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-seo.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-seo",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-seo.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-seo"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "11614",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"a2e2016cc47432260a44482453df36fe-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE3FVVN4Z5VE834A4F174",
+        "Connection": "close"
+      },
+      "bytes": 11614,
+      "sha256": "8de6e55cb49ff801e76c2f287287d55a1a3c290be22a910d18ce1bbf2cc4c2d3",
+      "title": [
+        "Conseils SEO pour améliorer votre visibilité à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-seo"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-tenir-site-a-jour.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-tenir-site-a-jour",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-tenir-site-a-jour.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-tenir-site-a-jour"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10912",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"32b51a29f39caa4f9442805f363f6d3d-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE3CR5DHFTE5G3NYRDDM2",
+        "Connection": "close"
+      },
+      "bytes": 10912,
+      "sha256": "2f2ff31addc5578d48abeeb5f24900c4458d91020b07643a18bbf2e495ddbf83",
+      "title": [
+        "Pourquoi tenir son site web à jour est essentiel | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-tenir-site-a-jour"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-tenir-site-jour",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-tenir-site-a-jour",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-tenir-site-jour",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-tenir-site-a-jour"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10912",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"32b51a29f39caa4f9442805f363f6d3d-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE3QRP1M0FCD3M39S0BQV",
+        "Connection": "close"
+      },
+      "bytes": 10912,
+      "sha256": "2f2ff31addc5578d48abeeb5f24900c4458d91020b07643a18bbf2e495ddbf83",
+      "title": [
+        "Pourquoi tenir son site web à jour est essentiel | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-tenir-site-a-jour"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/conseils-tenir-site-jour.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/conseils-tenir-site-a-jour",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/conseils-tenir-site-jour.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/conseils-tenir-site-a-jour"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "10912",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"32b51a29f39caa4f9442805f363f6d3d-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE3TYG5A8AHAKDPRNF94D",
+        "Connection": "close"
+      },
+      "bytes": 10912,
+      "sha256": "2f2ff31addc5578d48abeeb5f24900c4458d91020b07643a18bbf2e495ddbf83",
+      "title": [
+        "Pourquoi tenir son site web à jour est essentiel | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/conseils-tenir-site-a-jour"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/site-cle-en-main.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/sites-cle-en-main",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/site-cle-en-main.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/sites-cle-en-main"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "38347",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"02d4f8d0172b441e8c9fc4539874b800-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE3SG32Y9198H3AF68071",
+        "Connection": "close"
+      },
+      "bytes": 38347,
+      "sha256": "d2d6a8cb6cd0fbd31b220acd5169851add8b48f219fdcd4faed09b3fa833566e",
+      "title": [
+        "Site web clé en main | Central Web Agency Lyon"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/sites-cle-en-main"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/choisir-agence-web-lyon.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/choisir-agence-web-lyon",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/choisir-agence-web-lyon.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/choisir-agence-web-lyon"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "19011",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:25 GMT",
+        "Etag": "\"2ebfeaa0705b4fc1e279d9a3fb158cca-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE40GGP7D6V82N20GC144",
+        "Connection": "close"
+      },
+      "bytes": 19011,
+      "sha256": "5b4079b05214a7b9cd2ff66308276cc09a9dfbff196d604c35525531b5772cd7",
+      "title": [
+        "Comment choisir son agence web à Lyon en 2026 | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/choisir-agence-web-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/cout-site-vitrine-lyon.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/cout-site-vitrine-lyon",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/cout-site-vitrine-lyon.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/cout-site-vitrine-lyon"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "19157",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"ef127fc40e2fc3d1923ee8961a6da78a-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE44J6X6K35Z3WAB9YSJ9",
+        "Connection": "close"
+      },
+      "bytes": 19157,
+      "sha256": "9394e7f6b72872cfd2563da6ba97421be5dd90253849f752abf74067aac06e0d",
+      "title": [
+        "Combien coûte un site vitrine à Lyon en 2026 ? | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/cout-site-vitrine-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/importance-site-internet-2026.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/importance-site-internet-2026",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/importance-site-internet-2026.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/importance-site-internet-2026"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18375",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"b843cf46fa0ff3da63ad343a7c946249-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE4B8XMKC8YJ3MFVYDTKX",
+        "Connection": "close"
+      },
+      "bytes": 18375,
+      "sha256": "44558f110523d134f43d12533bee143ec28a64ed53caf8659ad89a340d9ee9dd",
+      "title": [
+        "Pourquoi avoir un site internet est indispensable en 2026 | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/importance-site-internet-2026"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "19223",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"40e7e1bbd619ba18f0fc3f17e88950a7-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE49DVQB3DB7BY1C8CNVR",
+        "Connection": "close"
+      },
+      "bytes": 19223,
+      "sha256": "e1f969e2d2349be32c4634ddfc8c1025938e61b9dcdddbaadd5f016258de0fb9",
+      "title": [
+        "Landing Page vs One-Page vs Site Vitrine : lequel choisir ? | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/landing-page-one-page-site-vitrine"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18162",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"3a5eb77e79f3428c6680351b18c8bdcf-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE4DX2VHF7WEBAJQMK3SK",
+        "Connection": "close"
+      },
+      "bytes": 18162,
+      "sha256": "4922a379c4228596d55572a60051eca79b5f729238c954f8c36b3bcdc2dd9938",
+      "title": [
+        "Pourquoi un artisan à Lyon a besoin d'un site vitrine en 2026 | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "16981",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"876e16719c1aba498f41fbd154a3f344-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE4JNTG3422XHDQGZ7SEW",
+        "Connection": "close"
+      },
+      "bytes": 16981,
+      "sha256": "8733aa9d47870324a090d892415bcea47412b86f86fc709a363274e8da7fe621",
+      "title": [
+        "Qui sommes-nous ? Central Web Agency, agence web à Lyon | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "20642",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"795bffd138171175d3a0655be804d713-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE4PKHQCC44C7YQ3G57J0",
+        "Connection": "close"
+      },
+      "bytes": 20642,
+      "sha256": "3fa9801502dde02d4e11ccfb3dc988695cc40a281dfb6319ef0b078f332feb11",
+      "title": [
+        "SEO local : comment apparaître en premier sur Google quand on est indépendant | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/seo-local-apparaitre-premier-google"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17726",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"1bad1acd6d2f7a31bf3c13d6c55316b4-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE4PX3K4EXJG7XAX4RWGA",
+        "Connection": "close"
+      },
+      "bytes": 17726,
+      "sha256": "c8c11a15656fb7173fcf57ea502cd4ace2411be7257318f369a40b704bd2beb5",
+      "title": [
+        "Site vitrine pour coach sportif à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-mode-lyon.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-mode-lyon",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/site-vitrine-mode-lyon.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/site-vitrine-mode-lyon"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18403",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"3b0e3ca9bef8a01becc7df31510140aa-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE4SXVJWFQEKK8WFW87DZ",
+        "Connection": "close"
+      },
+      "bytes": 18403,
+      "sha256": "01720b52c84f9517b9c9704c97446dfa000a51ec959c1156a8c2caae91513aa0",
+      "title": [
+        "Site vitrine pour les métiers de la mode à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-mode-lyon"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-restaurant.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-restaurant",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/site-vitrine-restaurant.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/site-vitrine-restaurant"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18953",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:26 GMT",
+        "Etag": "\"4885741904fe8355fd24021da8460bde-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE50B94RKHXBE90N5HG8B",
+        "Connection": "close"
+      },
+      "bytes": 18953,
+      "sha256": "6f4a326c759db909dae12ea25ab3ce1ae1b40887f7c884b3b78fc635cb907c3a",
+      "title": [
+        "Site vitrine pour restaurant, bar et salon de thé à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-restaurant"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-restaurant-lyon.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-restaurant",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/site-vitrine-restaurant-lyon.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/site-vitrine-restaurant"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "2",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18953",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"4885741904fe8355fd24021da8460bde-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE52SDD55E6TD82BZ2Y0G",
+        "Connection": "close"
+      },
+      "bytes": 18953,
+      "sha256": "6f4a326c759db909dae12ea25ab3ce1ae1b40887f7c884b3b78fc635cb907c3a",
+      "title": [
+        "Site vitrine pour restaurant, bar et salon de thé à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-restaurant"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/artisan-batiment.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/artisan-batiment",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/artisan-batiment.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/artisan-batiment"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "1",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "52161",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"8e3e596ca5b9033544194b2d9b02fa26-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE54CX3E50CC9YGDYSWR9",
+        "Connection": "close"
+      },
+      "bytes": 52161,
+      "sha256": "890432db10c27b662c5c7da754f9511a55b981183f5314442553143543245527",
+      "title": [
+        "Création de site internet pour artisan du bâtiment | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/artisan-batiment"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/coach-sportif.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/coach-sportif",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/coach-sportif.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/coach-sportif"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "58947",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"a1ea04abb48ec9c13d1411f97508d06c-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE593D7MF90T6G2KE2N85",
+        "Connection": "close"
+      },
+      "bytes": 58947,
+      "sha256": "f61934b02664a6c06df24a4120e9eeabddd05cb08be63c542c6fd9e4ed7de1c8",
+      "title": [
+        "Création de site internet pour coach sportif | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/coach-sportif"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/coiffeur-barbier.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/coiffeur-barbier",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/coiffeur-barbier.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/coiffeur-barbier"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "50674",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"d577ce99f5dd794790c405c21afb2fcc-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE5E3YNVYW2YEYEMRP4J1",
+        "Connection": "close"
+      },
+      "bytes": 50674,
+      "sha256": "b42a38531e7daeb05cc730b9b553366ec8e5dcdbcecc446922f19370937ccff7",
+      "title": [
+        "Création de site internet pour coiffeur & barbier | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/coiffeur-barbier"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/estheticienne.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/estheticienne",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/estheticienne.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/estheticienne"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "5",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; hit; ttl=31535995",
+        "Content-Length": "54035",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"d2f1e1164484bd88f762793f3531fe9e-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE5FK2RBDVCN9HXSKK5GS",
+        "Connection": "close"
+      },
+      "bytes": 54035,
+      "sha256": "15142150169571b8a3aec7a10fe4a46d7f321abc34c76d49998f4bcde36ac9ef",
+      "title": [
+        "Création de site internet pour esthéticienne | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/estheticienne"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/metiers-du-droit.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/metiers-du-droit",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/metiers-du-droit.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/metiers-du-droit"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "51171",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"fabab328478781d237ebeffcf72def43-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE5KZM4R08DZWZ1PQ6KDH",
+        "Connection": "close"
+      },
+      "bytes": 51171,
+      "sha256": "66b7ea454c5f47f1063f562e33c28d4046f9f16403d9a43bc526ad0ddb253caf",
+      "title": [
+        "Création de site internet pour métiers du droit | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/metiers-du-droit"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/photographe.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/photographe",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/photographe.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/photographe"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "48354",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"62817c5c7e1b8ee01b8b031d81944116-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE5RKEQXSX6BQE3XR6VRE",
+        "Connection": "close"
+      },
+      "bytes": 48354,
+      "sha256": "6d429fbec4615c716df39a95d9555412093fb1a4db5c8b866f7a43f52b2f6186",
+      "title": [
+        "Création de site internet pour photographe | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/photographe"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/praticien-bien-etre.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/praticien-bien-etre",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/praticien-bien-etre.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/praticien-bien-etre"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "52529",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"44b8550c92da2a63ecfd3d5fe02ed868-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE5SGM0CY9RE0ZVVB4GCD",
+        "Connection": "close"
+      },
+      "bytes": 52529,
+      "sha256": "ebef5657e3eb5bdcee88a1230a60644801a4a3251f20a9915c4a084882bf1121",
+      "title": [
+        "Création de site internet pour praticien bien-être | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/praticien-bien-etre"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/professionnels-sante.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/professionnels-sante",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/professionnels-sante.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/professionnels-sante"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "50639",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:27 GMT",
+        "Etag": "\"74a808aeb9f08c8b0a9a1fb02e508559-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE5VH71654NDCR0J331ET",
+        "Connection": "close"
+      },
+      "bytes": 50639,
+      "sha256": "fef518846a6217eeb51fcf6fef7a1e12a4c0b20ded429e6017991108e0545110",
+      "title": [
+        "Création de site internet pour professionnel de santé | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/professionnels-sante"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/restaurant.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/restaurant",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/restaurant.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/restaurant"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "52533",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "\"e1019097a53afe113748e5d3da3162f0-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6623E0JDMQ2N8HK9MSP",
+        "Connection": "close"
+      },
+      "bytes": 52533,
+      "sha256": "6826aba2b3c3120241ccf23e7716acd475a8c1035f4c7d660d3746980bbcb8e0",
+      "title": [
+        "Création de site internet pour restaurant | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/restaurant"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/fiches-metiers/vtc.html",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/fiches-metiers/vtc",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/fiches-metiers/vtc.html",
+          "status": 301,
+          "location": "https://central-web-agency.com/fiches-metiers/vtc"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "49384",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "\"8df3aabb18a1df54834ab717a8dcfd96-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE679M5GKD4V9QYKB8SJD",
+        "Connection": "close"
+      },
+      "bytes": 49384,
+      "sha256": "b73721a94246bbbb3df183994c4380beb906d0f7a749b61a233798eb053911eb",
+      "title": [
+        "Création de site internet pour chauffeur VTC | CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/fiches-metiers/vtc"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/robots.txt",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/robots.txt",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "76",
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "\"1627e284b2c332eac9c4a3d6a39f61e7-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-Nf-Request-Id": "01M5ASE66SATQYW3MM8XYVC1Z9",
+        "Connection": "close"
+      },
+      "bytes": 76,
+      "sha256": "9cfa7e42ecd65db6689a58c22cd6ca117a8aff156045c72c2be33394dcd5c11e",
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://central-web-agency.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://central-web-agency.com/sitemap.xml",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/sitemap.xml",
+      "redirects": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "3449",
+        "Content-Type": "application/xml",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "\"2d2a14d3584d6b89c6f0bbf92107817c-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE679EQQTJKFRRRZTQH9M",
+        "Connection": "close"
+      },
+      "bytes": 3449,
+      "sha256": "90a7d5e47bc8e67682f3988863033a5fc4797d2d11e40b5ee0606cfbd253b35b",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n\n  <url>\n    <loc>https://central-web-agency.com/</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/services</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/offres</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/sites-cle-en-main</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/sites-abonnement</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/metiers</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/contact</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/mentions-legales</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/cgv</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-bouche-a-oreille</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-collaboration</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-google-business</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-reseaux-sociaux</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-seo</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-tenir-site-a-jour</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/conseils-backlinks</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/choisir-agence-web-lyon</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/cout-site-vitrine-lyon</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/importance-site-internet-2026</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/landing-page-one-page-site-vitrine</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/pourquoi-site-vitrine-artisan-lyon</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/qui-sommes-nous-central-web-agency</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/seo-local-apparaitre-premier-google</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/site-vitrine-coach-sportif-lyon</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/site-vitrine-mode-lyon</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/blog/site-vitrine-restaurant</loc>\n  </url>\n\n    <url>\n    <loc>https://central-web-agency.com/fiches-metiers/artisan-batiment</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/coach-sportif</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/coiffeur-barbier</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/estheticienne</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/metiers-du-droit</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/photographe</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/praticien-bien-etre</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/professionnels-sante</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/restaurant</loc>\n  </url>\n\n  <url>\n    <loc>https://central-web-agency.com/fiches-metiers/vtc</loc>\n  </url>\n\n</urlset>"
+    },
+    {
+      "url": "https://central-web-agency.com/audit-missing-page-20261019",
+      "status": 404,
+      "final_url": "https://central-web-agency.com/audit-missing-page-20261019",
+      "redirects": [],
+      "headers": {
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "1746362068-ssl",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6HH948TV8YA28TWME7T",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "bytes": 3449,
+      "sha256": "8514f0009a58c6e0acb5468f88037732b59b70af5e524f452e3bef8fb33effc5",
+      "title": [
+        "Page not found"
+      ],
+      "canonical": [],
+      "robots": []
+    },
+    {
+      "url": "https://central-web-agency.com/index",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/index",
+          "status": 301,
+          "location": "https://central-web-agency.com/"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "32009",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "\"5780cb596cf07537660484bac1fb6be3-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6X9TT4P2P2M3FR5PQZF",
+        "Connection": "close"
+      },
+      "bytes": 32009,
+      "sha256": "73f2285daab8520b9af1d587ad8a070760d055449e5a8e7dae1d8b8dd43551a1",
+      "title": [
+        "Création de sites web en France | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-restaurant-lyon",
+      "status": 404,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-restaurant-lyon",
+      "redirects": [],
+      "headers": {
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "1746362068-ssl",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6PX8P07GNC5621YZHF5",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "bytes": 3449,
+      "sha256": "8514f0009a58c6e0acb5468f88037732b59b70af5e524f452e3bef8fb33effc5",
+      "title": [
+        "Page not found"
+      ],
+      "canonical": [],
+      "robots": []
+    },
+    {
+      "url": "https://central-web-agency.com/images/logo.png",
+      "status": 404,
+      "final_url": "https://central-web-agency.com/images/logo.png",
+      "redirects": [],
+      "headers": {
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "1746362068-ssl",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6RDG54QKPXE3BQ2Y7AV",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "bytes": 3449,
+      "sha256": "8514f0009a58c6e0acb5468f88037732b59b70af5e524f452e3bef8fb33effc5",
+      "title": [
+        "Page not found"
+      ],
+      "canonical": [],
+      "robots": []
+    },
+    {
+      "url": "https://central-web-agency.com/web-app-manifest-192x192.png",
+      "status": 404,
+      "final_url": "https://central-web-agency.com/web-app-manifest-192x192.png",
+      "redirects": [],
+      "headers": {
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "1746362068-ssl",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6S6AQ6GYMD24RJ469EX",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "bytes": 3449,
+      "sha256": "8514f0009a58c6e0acb5468f88037732b59b70af5e524f452e3bef8fb33effc5",
+      "title": [
+        "Page not found"
+      ],
+      "canonical": [],
+      "robots": []
+    },
+    {
+      "url": "https://central-web-agency.com/web-app-manifest-512x512.png",
+      "status": 404,
+      "final_url": "https://central-web-agency.com/web-app-manifest-512x512.png",
+      "redirects": [],
+      "headers": {
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Mon, 19 Oct 2026 19:15:28 GMT",
+        "Etag": "1746362068-ssl",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE6ZHCMYMW7PHQYH7TS34",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "bytes": 3449,
+      "sha256": "8514f0009a58c6e0acb5468f88037732b59b70af5e524f452e3bef8fb33effc5",
+      "title": [
+        "Page not found"
+      ],
+      "canonical": [],
+      "robots": []
+    },
+    {
+      "url": "https://central-web-agency.com/services/",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/services",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/services/",
+          "status": 301,
+          "location": "https://central-web-agency.com/services"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "17860",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:29 GMT",
+        "Etag": "\"58fd9be69d34a24e9f80abdeb8e010b9-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE77VYH3T7EC5NGJWGQGC",
+        "Connection": "close"
+      },
+      "bytes": 17860,
+      "sha256": "73b3e790cc29c0ff473e9beadf53e3dbda48c93f4024da8408833962b96e4b2b",
+      "title": [
+        "Services web sur mesure | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/services"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://central-web-agency.com/blog/site-vitrine-restaurant/",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/blog/site-vitrine-restaurant",
+      "redirects": [
+        {
+          "url": "https://central-web-agency.com/blog/site-vitrine-restaurant/",
+          "status": 301,
+          "location": "https://central-web-agency.com/blog/site-vitrine-restaurant"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "18953",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:29 GMT",
+        "Etag": "\"4885741904fe8355fd24021da8460bde-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE7BK8Q70MTMHZ3NAMJMQ",
+        "Connection": "close"
+      },
+      "bytes": 18953,
+      "sha256": "6f4a326c759db909dae12ea25ab3ce1ae1b40887f7c884b3b78fc635cb907c3a",
+      "title": [
+        "Site vitrine pour restaurant, bar et salon de thé à Lyon | Central Web Agency"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/blog/site-vitrine-restaurant"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "http://central-web-agency.com/",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/",
+      "redirects": [
+        {
+          "url": "http://central-web-agency.com/",
+          "status": 301,
+          "location": "https://central-web-agency.com/"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "6",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; hit; ttl=31535994",
+        "Content-Length": "32009",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:29 GMT",
+        "Etag": "\"5780cb596cf07537660484bac1fb6be3-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE78CV83X78JMJN5KZA7J",
+        "Connection": "close"
+      },
+      "bytes": 32009,
+      "sha256": "73f2285daab8520b9af1d587ad8a070760d055449e5a8e7dae1d8b8dd43551a1",
+      "title": [
+        "Création de sites web en France | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "https://www.central-web-agency.com/",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/",
+      "redirects": [
+        {
+          "url": "https://www.central-web-agency.com/",
+          "status": 301,
+          "location": "https://central-web-agency.com/"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "32009",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:29 GMT",
+        "Etag": "\"5780cb596cf07537660484bac1fb6be3-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE7DFB08DR82R66PDM6XD",
+        "Connection": "close"
+      },
+      "bytes": 32009,
+      "sha256": "73f2285daab8520b9af1d587ad8a070760d055449e5a8e7dae1d8b8dd43551a1",
+      "title": [
+        "Création de sites web en France | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "url": "http://www.central-web-agency.com/",
+      "status": 200,
+      "final_url": "https://central-web-agency.com/",
+      "redirects": [
+        {
+          "url": "http://www.central-web-agency.com/",
+          "status": 301,
+          "location": "https://www.central-web-agency.com/"
+        },
+        {
+          "url": "https://www.central-web-agency.com/",
+          "status": 301,
+          "location": "https://central-web-agency.com/"
+        }
+      ],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Cache-Control": "public,max-age=0,must-revalidate",
+        "Cache-Status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+        "Content-Length": "32009",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Mon, 19 Oct 2026 19:15:29 GMT",
+        "Etag": "\"5780cb596cf07537660484bac1fb6be3-ssl\"",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Vary": "Accept-Encoding",
+        "X-Nf-Request-Id": "01M5ASE7PF2QRRJ9M197Z47MZ3",
+        "Connection": "close"
+      },
+      "bytes": 32009,
+      "sha256": "73f2285daab8520b9af1d587ad8a070760d055449e5a8e7dae1d8b8dd43551a1",
+      "title": [
+        "Création de sites web en France | Agence web à Lyon – CWA"
+      ],
+      "canonical": [
+        "https://central-web-agency.com/"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    }
+  ]
+}

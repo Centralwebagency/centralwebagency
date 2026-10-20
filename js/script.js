@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dot  = document.getElementById('cursorDot');
     const ring = document.getElementById('cursorRing');
     if (!dot || !ring) return;
+    if (window.matchMedia('(max-width: 768px), (pointer: coarse), (prefers-reduced-motion: reduce)').matches) return;
 
     let mx = 0, my = 0, rx = 0, ry = 0;
 
@@ -79,11 +80,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileOverlay = document.getElementById('mobileOverlay');
 
     if (burger && mobileOverlay) {
-      function toggleNew(open) {
+      const closeButton = document.getElementById('mobileOverlayClose');
+      const desktop = window.matchMedia('(min-width: 769px)');
+      let previousOverflow = '';
+      mobileOverlay.inert = true;
+      mobileOverlay.setAttribute('aria-hidden', 'true');
+
+      function toggleNew(open, restoreFocus = true) {
+        if (open === mobileOverlay.classList.contains('open')) return;
+        if (open) previousOverflow = document.body.style.overflow;
+        // Move focus out before hiding the dialog from assistive technology.
+        if (!open && restoreFocus) burger.focus();
+        if (!open && !restoreFocus && mobileOverlay.contains(document.activeElement)) {
+          document.activeElement.blur();
+        }
         burger.classList.toggle('open', open);
         mobileOverlay.classList.toggle('open', open);
         burger.setAttribute('aria-expanded', String(open));
-        document.body.style.overflow = open ? 'hidden' : '';
+        burger.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+        mobileOverlay.inert = !open;
+        mobileOverlay.setAttribute('aria-hidden', String(!open));
+        document.body.style.overflow = open ? 'hidden' : previousOverflow;
+        if (open) {
+          requestAnimationFrame(() => {
+            if (mobileOverlay.classList.contains('open')) {
+              (closeButton || mobileOverlay.querySelector('a')).focus();
+            }
+          });
+        }
       }
 
       burger.addEventListener('click', () => {
@@ -93,11 +117,24 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileOverlay.querySelectorAll('a').forEach(a =>
         a.addEventListener('click', () => toggleNew(false))
       );
+      if (closeButton) closeButton.addEventListener('click', () => toggleNew(false));
 
       document.addEventListener('keydown', e => {
-        if (e.key === 'Escape' && mobileOverlay.classList.contains('open')) {
+        if (!mobileOverlay.classList.contains('open')) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
           toggleNew(false);
         }
+        if (e.key === 'Tab') {
+          const focusable = [burger, ...mobileOverlay.querySelectorAll('a[href], button:not([disabled])')];
+          const current = focusable.indexOf(document.activeElement);
+          const next = (current + (e.shiftKey ? -1 : 1) + focusable.length) % focusable.length;
+          e.preventDefault();
+          focusable[next].focus();
+        }
+      });
+      desktop.addEventListener('change', e => {
+        if (e.matches) toggleNew(false, false);
       });
     }
 
@@ -122,6 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
   (function initReveal() {
     const targets = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .stagger');
     if (!targets.length) return;
+    // Content remains visible when scripting/animation support is unavailable.
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -132,7 +171,10 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 
-    targets.forEach(el => observer.observe(el));
+    targets.forEach(el => {
+      el.classList.add('reveal-pending');
+      observer.observe(el);
+    });
   })();
 
 
@@ -143,6 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
   (function initFAQ() {
     const questions = document.querySelectorAll('.faq-question');
     if (!questions.length) return;
+    document.documentElement.classList.add('faq-ready');
 
     questions.forEach(btn => {
       btn.addEventListener('click', () => {

@@ -17,7 +17,7 @@
 @use 'metiers';
 @use 'fiches_metiers';
 @use 'back-to-top';
-@import './animations';
+@use 'animations';
 
 
 
@@ -234,11 +234,14 @@ img {
   justify-content: center;
   opacity: 0;
   pointer-events: none;
-  transition: opacity .4s ease;
+  visibility: hidden;
+  transition: opacity .4s ease, visibility 0s .4s;
 
   &.open {
     opacity: 1;
     pointer-events: all;
+    visibility: visible;
+    transition: opacity .4s ease;
   }
 
   ul {
@@ -694,11 +697,12 @@ img {
     background: variables.$gold-dim;
   }
 
-  h4 {
+  h3 {
     font-size: .88rem;
     font-weight: 500;
     color: variables.$text;
     margin-bottom: .25rem;
+    margin-top: 1.33em;
   }
 
   p {
@@ -1182,7 +1186,7 @@ img {
 }
 
 .faq-answer {
-  max-height: 0;
+  max-height: none;
   overflow: hidden;
   transition: max-height .4s variables.$ease;
 
@@ -1192,6 +1196,11 @@ img {
     color: variables.$text-muted;
     line-height: 1.85;
   }
+}
+
+// Collapse answers only after their keyboard/click handlers are ready.
+.faq-ready .faq-item:not(.open) .faq-answer {
+  max-height: 0;
 }
 
 
@@ -1313,13 +1322,14 @@ img {
 }
 
 .footer-col {
-  h4 {
+  h2 {
     font-size: .68rem;
     font-weight: 500;
     letter-spacing: .2em;
     text-transform: uppercase;
     color: variables.$text-muted;
     margin-bottom: 1.5rem;
+    margin-top: 1.33em;
   }
 
   ul {
@@ -1381,19 +1391,19 @@ img {
 // ══════════════════════════════════════════════════════════════
 // ANIMATIONS AU SCROLL
 // ══════════════════════════════════════════════════════════════
-.reveal {
+.reveal.reveal-pending {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity .8s variables.$ease, transform .8s variables.$ease;
 }
 
-.reveal-left {
+.reveal-left.reveal-pending {
   opacity: 0;
   transform: translateX(-40px);
   transition: opacity .8s variables.$ease, transform .8s variables.$ease;
 }
 
-.reveal-right {
+.reveal-right.reveal-pending {
   opacity: 0;
   transform: translateX(40px);
   transition: opacity .8s variables.$ease, transform .8s variables.$ease;
@@ -1406,13 +1416,14 @@ img {
   transform: none;
 }
 
-.stagger > * {
+.stagger.reveal-pending > * {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity .6s variables.$ease, transform .6s variables.$ease;
 }
 
 .stagger.visible {
+  > * { opacity: 1; transform: none; }
   > *:nth-child(1)  { opacity: 1; transform: none; transition-delay: .0s; }
   > *:nth-child(2)  { opacity: 1; transform: none; transition-delay: .1s; }
   > *:nth-child(3)  { opacity: 1; transform: none; transition-delay: .2s; }
@@ -1515,7 +1526,8 @@ img {
   *::before,
   *::after {
     animation-duration: .01ms !important;
-    transition-duration: .01ms !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
   }
 }
 

@@ -1,0 +1,98 @@
+[
+  {
+    "path": "/",
+    "width": 320,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\home-320.png"
+  },
+  {
+    "path": "/contact",
+    "width": 320,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\contact-320.png"
+  },
+  {
+    "path": "/offres",
+    "width": 320,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\offres-320.png"
+  },
+  {
+    "path": "/fiches-metiers/coach-sportif",
+    "width": 320,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\fiches-metiers-coach-sportif-320.png"
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\home-768.png"
+  },
+  {
+    "path": "/contact",
+    "width": 768,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\contact-768.png"
+  },
+  {
+    "path": "/offres",
+    "width": 768,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\offres-768.png"
+  },
+  {
+    "path": "/fiches-metiers/coach-sportif",
+    "width": 768,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\fiches-metiers-coach-sportif-768.png"
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\home-1440.png"
+  },
+  {
+    "path": "/contact",
+    "width": 1440,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\contact-1440.png"
+  },
+  {
+    "path": "/offres",
+    "width": 1440,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\offres-1440.png"
+  },
+  {
+    "path": "/fiches-metiers/coach-sportif",
+    "width": 1440,
+    "hidden_content": [],
+    "clipped_faq": [],
+    "menu_focus_inside": true,
+    "screenshot": "C:\\Users\\conta\\AppData\\Local\\Temp\\cwa-audit-screenshots\\fiches-metiers-coach-sportif-1440.png"
+  }
+]

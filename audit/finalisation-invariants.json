@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-20T02:43:19.825148+00:00",
+  "checks": {
+    "same_38_content_pages": true,
+    "same_public_urls": true,
+    "same_canonicals": true,
+    "same_robots_meta": true,
+    "same_structured_offer_prices": true,
+    "static_audit_clean": true,
+    "robots.txt_unchanged": true,
+    "sitemap.xml_unchanged": true,
+    "_redirects_unchanged": true,
+    "existing_images_and_videos_unchanged": true
+  }
+}

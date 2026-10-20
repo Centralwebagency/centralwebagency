@@ -35,11 +35,8 @@
   <link rel="shortcut icon" href="../images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
   <link rel="manifest" href="../images/site.webmanifest">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/vendor/google-fonts.css">
+  <link rel="stylesheet" href="/css/vendor/fontawesome.css">
   <link rel="stylesheet" href="../css/styles.css">
 
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; form-action 'self' https://formspree.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self'; img-src 'self' https:; media-src 'self';">
@@ -105,25 +102,109 @@
 
   <!-- FAQ -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "Combien coûte un site internet pour coach sportif ?", "acceptedAnswer": { "@type": "Answer", "text": "Un site vitrine clé en main démarre à partir de 450€ TTC. Un site dynamique et administrable avec base de données, réservation, espace client ou paiement en ligne démarre à partir de 2 500€ TTC. Dans les deux cas, aucun abonnement n'est obligatoire." } },
-      { "@type": "Question", "name": "En combien de temps mon site de coach sera-t-il en ligne ?", "acceptedAnswer": { "@type": "Answer", "text": "Un site vitrine est généralement livré entre 1 et 3 semaines. Pour un site dynamique, le délai dépend des fonctionnalités et vous est précisé dans le devis avant le démarrage." } },
-      { "@type": "Question", "name": "Mes clients pourront-ils réserver leurs séances en ligne ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Nous pouvons intégrer un agenda et un module de réservation qui laissent vos clients réserver un créneau libre à toute heure, avec confirmation automatique. Vous réduisez les appels et les allers-retours de messages." } },
-      { "@type": "Question", "name": "Serai-je visible sur Google quand on cherche un coach sportif dans ma ville ?", "acceptedAnswer": { "@type": "Answer", "text": "Chaque site est construit sur des fondations optimisées pour le référencement naturel local : structure technique propre, balises adaptées, rapidité et contenu ciblé sur votre activité et votre zone. C'est ce qui aide à ressortir sur des recherches comme coach sportif suivi de votre ville." } },
-      { "@type": "Question", "name": "Puis-je encaisser des paiements en ligne pour mes séances ou mes programmes ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Sur un site dynamique, nous pouvons intégrer le paiement en ligne pour vendre des séances, des forfaits ou des programmes, et automatiser une partie de votre gestion." } },
-      { "@type": "Question", "name": "Je ne suis pas à l'aise avec l'informatique, pourrai-je gérer mon site ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Pour un site dynamique et administrable, nous concevons une interface de gestion adaptée à vos besoins et prévoyons la prise en main. Si vous préférez déléguer la maintenance, une formule optionnelle est proposée à partir de 99€ par mois." } },
-      { "@type": "Question", "name": "Ai-je besoin d'un site vitrine ou d'un site dynamique ?", "acceptedAnswer": { "@type": "Answer", "text": "Un site vitrine suffit si votre objectif est la visibilité et la prise de contact. Un site dynamique devient utile dès que vous voulez de la réservation, un espace client, du paiement ou une gestion automatisée. Nous vous conseillons la solution adaptée à vos objectifs et votre budget." } },
-      { "@type": "Question", "name": "Suis-je propriétaire de mon site ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Votre site clé en main vous appartient, qu'il s'agisse d'un site vitrine ou d'un site dynamique. Aucun abonnement n'est obligatoire : les formules de maintenance restent entièrement optionnelles." } },
-      { "@type": "Question", "name": "Travaillez-vous avec des coachs partout en France ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Central Web Agency est basée à Heyrieux, près de Lyon, et accompagne des coachs sportifs partout en France grâce à un suivi entièrement réalisable à distance." } },
-      { "@type": "Question", "name": "Que se passe-t-il après la mise en ligne de mon site ?", "acceptedAnswer": { "@type": "Answer", "text": "Vous bénéficiez de 30 jours de retouches offertes sur le périmètre validé. Ensuite, vous pouvez gérer votre site selon les modalités prévues au projet ou choisir une maintenance optionnelle : à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique." } },
-      { "@type": "Question", "name": "Pouvez-vous relier mon site à Instagram et à mes réseaux sociaux ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Nous intégrons vos réseaux sociaux pour rediriger vos visiteurs vers vos comptes et renforcer votre présence en ligne, tout en gardant votre site comme point central de votre activité." } },
-      { "@type": "Question", "name": "Proposez-vous un paiement unique ou un abonnement ?", "acceptedAnswer": { "@type": "Answer", "text": "La création du site est proposée en paiement unique : à partir de 450€ TTC pour un site vitrine et de 2 500€ TTC pour un site dynamique. Aucun abonnement n'est obligatoire. Si vous souhaitez nous confier la maintenance, elle est proposée en option à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique." } }
-    ]
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Combien coûte un site internet pour coach sportif ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un site vitrine clé en main démarre à partir de 450€ TTC. Un site dynamique et administrable avec base de données, réservation, espace client ou paiement en ligne démarre à partir de 2 500€ TTC. Dans les deux cas, aucun abonnement n'est obligatoire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "En combien de temps mon site sera-t-il en ligne ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un site vitrine est généralement livré entre 1 et 3 semaines. Pour un site dynamique, le délai dépend des fonctionnalités et vous est précisé dans le devis avant le démarrage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mes clients pourront-ils réserver leurs séances en ligne ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Nous intégrons un agenda et un module de réservation qui laissent vos clients réserver un créneau libre à toute heure, avec confirmation automatique. Vous réduisez les appels et les allers-retours de messages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Serai-je visible sur Google dans ma ville ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chaque site repose sur des fondations optimisées pour le référencement local : structure propre, balises adaptées, rapidité et contenu ciblé sur votre activité et votre zone. C'est ce qui aide à ressortir sur des recherches comme « coach sportif » suivi de votre ville."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je encaisser des paiements en ligne ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Sur un site dynamique, nous intégrons le paiement en ligne pour vendre des séances, des forfaits ou des programmes, et automatiser une partie de votre gestion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Je ne suis pas à l'aise avec l'informatique, pourrai-je gérer mon site ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Pour un site dynamique et administrable, nous concevons une interface de gestion adaptée à vos besoins. Si vous préférez déléguer la maintenance, une formule optionnelle est proposée à partir de 99€/mois."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ai-je besoin d'un site vitrine ou d'un site dynamique ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un site vitrine suffit si votre objectif est la visibilité et la prise de contact. Un site dynamique devient utile dès que vous voulez de la réservation, un espace client ou du paiement. Nous vous conseillons la solution adaptée à vos objectifs et votre budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Suis-je propriétaire de mon site ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Votre site clé en main vous appartient, qu'il s'agisse d'un site vitrine ou d'un site dynamique. Aucun abonnement n'est obligatoire : les formules de maintenance restent entièrement optionnelles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Travaillez-vous avec des coachs partout en France ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Nous sommes basés à Heyrieux, près de Lyon, et accompagnons des coachs sportifs partout en France grâce à un suivi entièrement réalisable à distance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que se passe-t-il après la mise en ligne ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vous bénéficiez de 30 jours de retouches offertes sur le périmètre validé. Ensuite, vous pouvez gérer votre site selon les modalités prévues au projet ou choisir une maintenance optionnelle : à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Pouvez-vous relier mon site à mes réseaux sociaux ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Nous intégrons vos réseaux sociaux pour rediriger vos visiteurs vers vos comptes et renforcer votre présence en ligne, tout en gardant votre site comme point central de votre activité."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Paiement unique ou abonnement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La création du site est proposée en paiement unique : à partir de 450€ TTC pour un site vitrine et de 2 500€ TTC pour un site dynamique. Aucun abonnement n'est obligatoire. Si vous souhaitez nous confier la maintenance, elle est proposée en option à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique."
+      }
+    }
+  ]
+}
+</script>
 
 </head>
 <body class="page-fiche">
@@ -299,12 +380,7 @@
           <h2 class="section-title" id="why-title">
             Pourquoi un site pensé<br>pour <em>votre métier</em>
           </h2>
-          <p class="section-body">
-            Un site générique se contente d'exister. Un site conçu spécifiquement pour un coach sportif
-            travaille pour vous : il inspire confiance dès la première seconde, met vos résultats en avant
-            et guide le visiteur vers une seule action, réserver une séance ou demander un accompagnement.
-            Chaque élément est pensé pour convertir, pas seulement pour décorer.
-          </p>
+          <p class="section-body">Un site conçu pour un coach présente votre approche, vos prestations et vos résultats pour aider les visiteurs à vous contacter. Notre guide des <a href="/blog/site-vitrine-coach-sportif-lyon">contenus à préparer pour un site de coach sportif</a> vous aide à rassembler les informations utiles avant la création.</p>
           <p class="section-body">
             Un coach sportif ne vend pas un produit, il vend une transformation et une relation de confiance.
             Votre site doit donc raconter votre approche, montrer vos réussites et lever les freins avant même
@@ -1046,7 +1122,7 @@
           </a>
         </div>
         <div class="footer-col">
-          <h4>Navigation</h4>
+          <h2>Navigation</h2>
           <ul>
             <li><a href="/">Accueil</a></li>
             <li><a href="/services">Services</a></li>
@@ -1058,7 +1134,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h2>Contact</h2>
           <p>
             <a href="mailto:contact.centralwebagency@gmail.com">contact.centralwebagency@gmail.com</a>
             <br><br>
@@ -1078,6 +1154,6 @@
     </div>
   </footer>
 
-  <script src="../js/script.js"></script>
+  <script src="../js/script.js" defer></script>
 </body>
 </html>
