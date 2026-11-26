@@ -84,17 +84,43 @@
     "offers": [
       {
         "@type": "Offer",
-        "name": "Site vitrine pour coach sportif",
-        "priceCurrency": "EUR",
-        "price": "450",
-        "description": "Site vitrine clé en main pour coach sportif à partir de 450€ TTC. Aucun abonnement obligatoire."
+        "name": "Landing page pour coach sportif",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 450,
+          "priceCurrency": "EUR"
+        },
+        "description": "Landing page clé en main pour coach sportif à partir de 450 € TTC. Aucun abonnement obligatoire."
+      },
+      {
+        "@type": "Offer",
+        "name": "Site one-page pour coach sportif",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 650,
+          "priceCurrency": "EUR"
+        },
+        "description": "Site one-page clé en main pour coach sportif à partir de 650 € TTC. Aucun abonnement obligatoire."
+      },
+      {
+        "@type": "Offer",
+        "name": "Site vitrine multipage pour coach sportif",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 950,
+          "priceCurrency": "EUR"
+        },
+        "description": "Site vitrine multipage clé en main pour coach sportif à partir de 950 € TTC. Aucun abonnement obligatoire."
       },
       {
         "@type": "Offer",
         "name": "Site dynamique et administrable pour coach sportif",
-        "priceCurrency": "EUR",
-        "price": "2500",
-        "description": "Site dynamique et administrable pour coach sportif à partir de 2 500€ TTC. Aucun abonnement obligatoire."
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 2500,
+          "priceCurrency": "EUR"
+        },
+        "description": "Site dynamique et administrable pour coach sportif à partir de 2 500 € TTC, selon les fonctionnalités définies au devis. Aucun abonnement obligatoire."
       }
     ]
   }
@@ -111,7 +137,7 @@
       "name": "Combien coûte un site internet pour coach sportif ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un site vitrine clé en main démarre à partir de 450€ TTC. Un site dynamique et administrable avec base de données, réservation, espace client ou paiement en ligne démarre à partir de 2 500€ TTC. Dans les deux cas, aucun abonnement n'est obligatoire."
+        "text": "Une landing page démarre à 450 € TTC, un site one-page à 650 € TTC et un site vitrine multipage à 950 € TTC. Un site dynamique et administrable avec base de données, réservation, espace client ou paiement en ligne démarre à partir de 2 500€ TTC, selon les fonctionnalités définies au devis. Dans les deux cas, aucun abonnement n'est obligatoire."
       }
     },
     {
@@ -199,7 +225,7 @@
       "name": "Paiement unique ou abonnement ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La création du site est proposée en paiement unique : à partir de 450€ TTC pour un site vitrine et de 2 500€ TTC pour un site dynamique. Aucun abonnement n'est obligatoire. Si vous souhaitez nous confier la maintenance, elle est proposée en option à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique."
+        "text": "La création du site est proposée en paiement unique. Une landing page démarre à 450 € TTC, un site one-page à 650 € TTC et un site vitrine multipage à 950 € TTC. Un site dynamique administrable démarre à 2 500€ TTC, selon les fonctionnalités définies au devis. Aucun abonnement n'est obligatoire. Si vous souhaitez nous confier la maintenance, elle est proposée en option à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique."
       }
     }
   ]
@@ -640,7 +666,7 @@
             <thead>
               <tr>
                 <th scope="col">Critère</th>
-                <th scope="col">Site vitrine</th>
+                <th scope="col">Site de présentation</th>
                 <th scope="col">Site dynamique</th>
               </tr>
             </thead>
@@ -682,7 +708,7 @@
               </tr>
               <tr>
   <th scope="row">Tarif de création</th>
-  <td><strong>À partir de 450€ TTC</strong></td>
+  <td><strong>Landing page dès 450 € TTC<br>Site one-page dès 650 € TTC<br>Vitrine multipage dès 950 € TTC</strong></td>
   <td><strong>À partir de 2 500€ TTC</strong></td>
 </tr>
 
@@ -709,7 +735,8 @@
 
         <p class="section-body" style="max-width:760px;margin:2.5rem auto 0;text-align:center;">
           <strong>Quelle que soit la solution choisie, aucun abonnement n'est obligatoire.</strong>
-          Un site vitrine, à partir de <strong>450€ TTC</strong>, est idéal pour présenter votre activité,
+          Une landing page démarre à <strong>450 € TTC</strong>, un site one-page à <strong>650 € TTC</strong> et un site vitrine multipage à <strong>950 € TTC</strong>.
+          Un site de présentation est idéal pour présenter votre activité,
           développer votre visibilité et générer des demandes de contact. Un site dynamique et administrable,
           à partir de <strong>2 500€ TTC</strong>, va plus loin avec une base de données et des fonctionnalités
           comme la réservation, le paiement en ligne, les comptes clients ou une interface d'administration.
@@ -806,11 +833,11 @@
           <!-- SITE VITRINE -->
           <article class="pricing-card featured">
             <span class="pricing-badge">Le plus accessible</span>
-            <p class="pricing-name">Site vitrine</p>
+            <p class="pricing-name">Site de présentation</p>
             <div class="pricing-price"><sup>€</sup>450<sub>+</sub></div>
 
             <p class="pricing-desc">
-              Une présence professionnelle sur internet pour présenter votre activité,
+              Le prix affiché correspond à une landing page. Une présence professionnelle sur internet pour présenter votre activité,
               vos prestations et transformer vos visiteurs en prises de contact.
               <strong>Paiement unique et aucun abonnement obligatoire.</strong>
             </p>
@@ -960,7 +987,7 @@
                 <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
               </button>
               <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
-                <p>Un site vitrine clé en main démarre à partir de <strong>450€ TTC</strong>. Un site dynamique et administrable avec base de données, réservation, espace client ou paiement en ligne démarre à partir de <strong>2 500€ TTC</strong>. Dans les deux cas, <strong>aucun abonnement n'est obligatoire</strong>.</p>
+                <p>Une landing page démarre à <strong>450 € TTC</strong>, un site one-page à <strong>650 € TTC</strong> et un site vitrine multipage à <strong>950 € TTC</strong>. Un site dynamique et administrable avec base de données, réservation, espace client ou paiement en ligne démarre à partir de <strong>2 500€ TTC</strong>, selon les fonctionnalités définies au devis. Dans les deux cas, <strong>aucun abonnement n'est obligatoire</strong>.</p>
               </div>
             </div>
 
@@ -1070,7 +1097,7 @@
                 <span class="faq-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></span>
               </button>
               <div class="faq-answer" id="faq-a12" role="region" aria-labelledby="faq-q12">
-                <p>La création du site est proposée en paiement unique : à partir de 450€ TTC pour un site vitrine et de 2 500€ TTC pour un site dynamique. Aucun abonnement n'est obligatoire. Si vous souhaitez nous confier la maintenance, elle est proposée en option à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique.</p>
+                <p>La création du site est proposée en paiement unique. Une landing page démarre à <strong>450 € TTC</strong>, un site one-page à <strong>650 € TTC</strong> et un site vitrine multipage à <strong>950 € TTC</strong>. Un site dynamique administrable démarre à 2 500€ TTC, selon les fonctionnalités définies au devis. Aucun abonnement n'est obligatoire. Si vous souhaitez nous confier la maintenance, elle est proposée en option à partir de 39€ par mois pour un site vitrine et 99€ par mois pour un site dynamique.</p>
               </div>
             </div>
 
