@@ -4003,4 +4003,34 @@ img {
   }
 }
 
+main :where(h2, section)[id] {
+  scroll-margin-top: 7rem;
+}
+
+@media (max-width: 768px) {
+  main :where(h2, section)[id] {
+    scroll-margin-top: 6rem;
+  }
+}
+:is(:where(.article-body, .advice-content, .advice-header) :where(p, li) a:not([class]),
+.page-fiche :where(.fiche-head, .fiche-card, .faq-answer) p a:not([class]),
+main p a.editorial-link) {
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+:is(:where(.article-body, .advice-content, .advice-header) :where(p, li) a:not([class]),
+.page-fiche :where(.fiche-head, .fiche-card, .faq-answer) p a:not([class]),
+main p a.editorial-link):hover {
+  color: var(--gold-light);
+  text-decoration-thickness: 0.12em;
+}
+:is(:where(.article-body, .advice-content, .advice-header) :where(p, li) a:not([class]),
+.page-fiche :where(.fiche-head, .fiche-card, .faq-answer) p a:not([class]),
+main p a.editorial-link):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
 /*# sourceMappingURL=styles.css.map */

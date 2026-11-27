@@ -1717,3 +1717,36 @@ img {
 @media (max-width: variables.$mobile) {
   .page-banner-title { font-size: clamp(2.5rem, 10vw, 4rem); }
 }
+
+// Dégagement sous la navigation fixe pour les titres et sections ciblés par un fragment.
+main :where(h2, section)[id] {
+  scroll-margin-top: 7rem;
+}
+
+@media (max-width: variables.$tablet) {
+  main :where(h2, section)[id] {
+    scroll-margin-top: 6rem;
+  }
+}
+
+// Texte éditorial dans les articles, conseils et fiches, et liens de texte des offres.
+:is(
+  :where(.article-body, .advice-content, .advice-header) :where(p, li) a:not([class]),
+  .page-fiche :where(.fiche-head, .fiche-card, .faq-answer) p a:not([class]),
+  main p a.editorial-link
+) {
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .18em;
+
+  &:hover {
+    color: var(--gold-light);
+    text-decoration-thickness: .12em;
+  }
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
