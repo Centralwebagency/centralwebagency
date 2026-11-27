@@ -4012,6 +4012,10 @@ main :where(h2, section)[id] {
     scroll-margin-top: 6rem;
   }
 }
+html:has(:is(#offers-title, #plans-title, #cle-plans-title, #dynamic-plans-title):target) {
+  scroll-behavior: auto;
+}
+
 :is(:where(.article-body, .advice-content, .advice-header) :where(p, li) a:not([class]),
 .page-fiche :where(.fiche-head, .fiche-card, .faq-answer) p a:not([class]),
 main p a.editorial-link) {

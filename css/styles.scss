@@ -1729,6 +1729,11 @@ main :where(h2, section)[id] {
   }
 }
 
+// Le saut immédiat permet au navigateur de compenser le déplacement dû aux polices.
+html:has(:is(#offers-title, #plans-title, #cle-plans-title, #dynamic-plans-title):target) {
+  scroll-behavior: auto;
+}
+
 // Texte éditorial dans les articles, conseils et fiches, et liens de texte des offres.
 :is(
   :where(.article-body, .advice-content, .advice-header) :where(p, li) a:not([class]),
